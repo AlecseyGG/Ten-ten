@@ -1,0 +1,1723 @@
+﻿Log file open, 08/23/20 19:43:50
+LogInit: Display: Running engine for game: Trening
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.202478
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13942748
+LogInit: Engine Version: 4.25.3-13942748+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i5-7400 CPU @ 3.00GHz, GPU: AMD Radeon HD 6800 Series
+LogInit: Compiled (64-bit): Jul 25 2020 02:07:48
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Epic/Engine/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.08.23-13.43.50:349][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.08.23-13.43.50:349][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.08.23-13.43.50:349][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Config/Windows/Engine.ini]
+[2020.08.23-13.43.50:349][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.08.23-13.43.50:349][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2020.08.23-13.43.50:349][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2020.08.23-13.43.50:349][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2020.08.23-13.43.50:349][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.Mobile.VirtualTextures:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.AnisotropicBRDF:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Bias:1.000000]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.VertexDeformationOutputsVelocity:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.MeshStreaming:0]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2020.08.23-13.43.50:350][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[r.SkinCache.DefaultBehavior:1]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[r.GPUSkin.Support16BitBoneIndex:0]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Config/Windows/Engine.ini]
+[2020.08.23-13.43.50:351][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Config/Windows/Engine.ini]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Config/Windows/Engine.ini]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.08.23-13.43.50:351][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Config/Windows/Engine.ini]
+[2020.08.23-13.43.50:351][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Config/Windows/Engine.ini]
+[2020.08.23-13.43.50:357][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Config/Windows/Scalability.ini]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Config/Windows/Scalability.ini]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Config/Windows/Scalability.ini]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Config/Windows/Scalability.ini]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.08.23-13.43.50:357][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Config/Windows/Scalability.ini]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Config/Windows/Scalability.ini]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Config/Windows/Scalability.ini]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Config/Windows/Scalability.ini]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.08.23-13.43.50:358][  0]LogInit: Selected Device Profile: [Windows]
+[2020.08.23-13.43.50:358][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.08.23-13.43.50:358][  0]LogHAL: Display: Platform has ~ 8 GB [8523530240 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.08.23-13.43.50:358][  0]LogInit: Going up to parent DeviceProfile []
+[2020.08.23-13.43.50:358][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@1] File [C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Config/Windows/Scalability.ini]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:1]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.6]]
+[2020.08.23-13.43.50:358][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Config/Windows/Scalability.ini]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:2]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Config/Windows/Scalability.ini]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:4]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.04]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.85]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.8]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.AOQuality:1]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:16]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:64]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@1] File [C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Config/Windows/Scalability.ini]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:60]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:1]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:350]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:2]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.7]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:2]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:3                 ; low number of samples when gathering]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:0    ; no foreground scattering]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:0    ; no foreground scattering]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Applying CVar settings from Section [TextureQuality@2] File [C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Config/Windows/Scalability.ini]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:4]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:800]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Config/Windows/Scalability.ini]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:32]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.SSS.Scale:0.75]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.SSGI.Quality:1]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.25]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2020.08.23-13.43.50:359][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.08.23-13.43.50:360][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.08.23-13.43.50:360][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.08.23-13.43.50:360][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.08.23-13.43.50:360][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.08.23-13.43.50:360][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.08.23-13.43.50:360][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.08.23-13.43.50:360][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.08.23-13.43.50:360][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.08.23-13.43.50:360][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.08.23-13.43.50:360][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.08.23-13.43.50:360][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Config/Windows/Scalability.ini]
+[2020.08.23-13.43.50:360][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.4]]
+[2020.08.23-13.43.50:360][  0]LogConfig: Setting CVar [[grass.DensityScale:0.4]]
+[2020.08.23-13.43.50:360][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@1] File [C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Config/Windows/Scalability.ini]
+[2020.08.23-13.43.50:360][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.08.23-13.43.50:360][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.08.23-13.43.50:360][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.08.23-13.43.50:360][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.08.23-13.43.50:360][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.08.23-13.43.50:360][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.08.23-13.43.50:360][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.08.23-13.43.50:360][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.08.23-13.43.50:360][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.08.23-13.43.50:360][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.08.23-13.43.50:360][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.08.23-13.43.50:360][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Config/Windows/Engine.ini]
+[2020.08.23-13.43.50:360][  0]LogInit: Computer: DESKTOP-MJUCFBR
+[2020.08.23-13.43.50:360][  0]LogInit: User: Aleksei
+[2020.08.23-13.43.50:360][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.08.23-13.43.50:360][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.08.23-13.43.50:360][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.08.23-13.43.50:360][  0]LogMemory: Platform Memory Stats for Windows
+[2020.08.23-13.43.50:360][  0]LogMemory: Process Physical Memory: 115.08 MB used, 115.08 MB peak
+[2020.08.23-13.43.50:360][  0]LogMemory: Process Virtual Memory: 95.12 MB used, 95.12 MB peak
+[2020.08.23-13.43.50:360][  0]LogMemory: Physical Memory: 3491.62 MB used,  4637.05 MB free, 8128.67 MB total
+[2020.08.23-13.43.50:360][  0]LogMemory: Virtual Memory: 5128.36 MB used,  134212600.00 MB free, 134217728.00 MB total
+[2020.08.23-13.43.50:366][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.08.23-13.43.50:395][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.08.23-13.43.50:396][  0]LogInit: Using OS detected language (en-US).
+[2020.08.23-13.43.50:396][  0]LogInit: Using OS detected locale (en-US).
+[2020.08.23-13.43.50:427][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.08.23-13.43.50:606][  0]LogInit: Setting process to per monitor DPI aware
+[2020.08.23-13.43.50:649][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.08.23-13.43.50:649][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.08.23-13.43.50:776][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.08.23-13.43.50:776][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.08.23-13.43.50:776][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.08.23-13.43.50:776][  0]LogD3D11RHI: D3D11 adapters:
+[2020.08.23-13.43.50:787][  0]LogD3D11RHI:    0. 'AMD Radeon HD 6800 Series' (Feature Level 11_0)
+[2020.08.23-13.43.50:787][  0]LogD3D11RHI:       1011/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2020.08.23-13.43.50:789][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.08.23-13.43.50:789][  0]LogD3D11RHI:       0/0/4064 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.08.23-13.43.50:789][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.08.23-13.43.50:794][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.08.23-13.43.50:794][  0]LogD3D11RHI:     GPU DeviceId: 0x6739 (for the marketing name, search the web for "GPU Device Id")
+[2020.08.23-13.43.50:794][  0]LogWindows: EnumDisplayDevices:
+[2020.08.23-13.43.50:794][  0]LogWindows:    0. 'AMD Radeon HD 6800 Series' (P:0 D:1)
+[2020.08.23-13.43.50:794][  0]LogWindows:    1. 'AMD Radeon HD 6800 Series' (P:1 D:1)
+[2020.08.23-13.43.50:795][  0]LogWindows:    2. 'AMD Radeon HD 6800 Series' (P:0 D:0)
+[2020.08.23-13.43.50:795][  0]LogWindows:    3. 'AMD Radeon HD 6800 Series' (P:0 D:0)
+[2020.08.23-13.43.50:795][  0]LogWindows:    4. 'AMD Radeon HD 6800 Series' (P:0 D:0)
+[2020.08.23-13.43.50:795][  0]LogWindows:    5. 'AMD Radeon HD 6800 Series' (P:0 D:0)
+[2020.08.23-13.43.50:796][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2020.08.23-13.43.50:796][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 6800 Series
+[2020.08.23-13.43.50:796][  0]LogD3D11RHI:   Driver Version: Catalyst 15.7.1 (internal:15.200.1062.1004, unified:15.200.1062.1004)
+[2020.08.23-13.43.50:796][  0]LogD3D11RHI:      Driver Date: 8-3-2015
+[2020.08.23-13.43.50:796][  0]LogRHI: Texture pool is 708 MB (70% of 1011 MB)
+[2020.08.23-13.43.50:842][  0]LogD3D11RHI: AMD Pre GCN architecture detected, some driver workarounds will be in place
+[2020.08.23-13.43.50:850][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.08.23-13.43.50:850][  0]LogD3D11RHI: Async texture creation enabled
+[2020.08.23-13.43.50:862][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2020.08.23-13.43.51:145][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.08.23-13.43.51:167][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.08.23-13.43.51:167][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.08.23-13.43.51:167][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.08.23-13.43.51:167][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.08.23-13.43.51:167][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.08.23-13.43.51:167][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.08.23-13.43.51:167][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.08.23-13.43.51:167][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.08.23-13.43.51:167][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.08.23-13.43.51:167][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.08.23-13.43.51:190][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.08.23-13.43.51:190][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.08.23-13.43.51:200][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.08.23-13.43.51:210][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.08.23-13.43.51:219][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.08.23-13.43.51:228][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.08.23-13.43.51:237][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.08.23-13.43.51:246][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.08.23-13.43.51:255][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.08.23-13.43.51:281][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.08.23-13.43.51:281][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.08.23-13.43.51:297][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.08.23-13.43.51:297][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.08.23-13.43.51:306][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.08.23-13.43.51:315][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.08.23-13.43.51:325][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.08.23-13.43.51:334][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.08.23-13.43.51:334][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.08.23-13.43.51:341][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.08.23-13.43.51:397][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (C:/Users/Aleksei/Documents/Unreal Projects/Trening/Intermediate/Shaders/WorkingDirectory/1256/).
+[2020.08.23-13.43.51:397][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Aleksei/AppData/Local/Temp/UnrealShaderWorkingDir/D9DBBF67424227594976B8BA6DAD61AD/'.
+[2020.08.23-13.43.51:397][  0]LogXGEController: Cleaning working directory: C:/Users/Aleksei/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.08.23-13.43.51:398][  0]LogShaderCompilers: Display: Using XGE Shader Compiler (Interception Interface).
+[2020.08.23-13.43.52:170][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.08.23-13.43.52:232][  0]LogDerivedDataCache: Loaded boot cache 0.06s 76MB C:/Users/Aleksei/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.08.23-13.43.52:232][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Aleksei/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.08.23-13.43.52:233][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Aleksei/Documents/Unreal Projects/Trening/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.08.23-13.43.52:233][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.08.23-13.43.52:233][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Aleksei/Documents/Unreal Projects/Trening/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.08.23-13.43.52:233][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.08.23-13.43.52:244][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.08.23-13.43.52:244][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.08.23-13.43.52:244][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.08.23-13.43.52:245][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Aleksei/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.08.23-13.43.52:245][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.08.23-13.43.52:245][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.08.23-13.43.52:297][  0]LogSlate: Using FreeType 2.10.0
+[2020.08.23-13.43.52:298][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.08.23-13.43.52:323][  0]LogAssetRegistry: FAssetRegistry took 0.0024 seconds to start up
+[2020.08.23-13.43.52:552][  0]LogInit: Selected Device Profile: [Windows]
+[2020.08.23-13.43.52:665][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.08.23-13.43.52:665][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.08.23-13.43.52:665][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.08.23-13.43.52:665][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.08.23-13.43.52:665][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.08.23-13.43.52:682][  0]LogNetVersion: Trening 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3409110438)
+[2020.08.23-13.43.53:122][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000024F90DB9400), frame # 0
+[2020.08.23-13.43.53:122][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024F90CE3B00), frame # 0
+[2020.08.23-13.43.53:123][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024F90D70A00), frame # 0
+[2020.08.23-13.43.53:196][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.067451 seconds
+[2020.08.23-13.43.53:201][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.08.23-13.43.53:201][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.08.23-13.43.53:201][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.08.23-13.43.53:534][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.08.23-13.43.53:538][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.08.23-13.43.53:605][  0]LogLinker: Warning: Failed to load '/Game/PuzzleBP/PuzzleOverview': Can't find file.
+[2020.08.23-13.43.53:605][  0]LogLinker: Warning: Failed to load '/Game/PuzzleBP/PuzzleOverview': Can't find file.
+[2020.08.23-13.43.53:605][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/PuzzleBP/PuzzleOverview.PuzzleOverview_C'
+[2020.08.23-13.43.53:639][  0]SourceControl: Source control is disabled
+[2020.08.23-13.43.53:639][  0]SourceControl: Source control is disabled
+[2020.08.23-13.43.53:642][  0]SourceControl: Source control is disabled
+[2020.08.23-13.43.53:645][  0]SourceControl: Source control is disabled
+[2020.08.23-13.43.53:650][  0]SourceControl: Source control is disabled
+[2020.08.23-13.43.53:870][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.08.23-13.43.53:889][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.08.23-13.43.53:889][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.08.23-13.43.53:935][  0]LogOcInput: OculusInput pre-init called
+[2020.08.23-13.43.53:945][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.08.23-13.43.53:945][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.08.23-13.43.54:003][  0]LogEngine: Initializing Engine...
+[2020.08.23-13.43.54:003][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.08.23-13.43.54:003][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.08.23-13.43.54:004][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.08.23-13.43.54:167][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.08.23-13.43.54:175][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.08.23-13.43.54:175][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024F96829A00), frame # 0
+[2020.08.23-13.43.54:175][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024F96865440), frame # 0
+[2020.08.23-13.43.54:179][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.23-13.43.54:179][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.23-13.43.54:179][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.23-13.43.54:179][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.23-13.43.54:179][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.23-13.43.54:179][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.23-13.43.54:179][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.23-13.43.54:179][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.23-13.43.54:179][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.23-13.43.54:179][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.23-13.43.54:190][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.23-13.43.54:190][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.08.23-13.43.54:231][  0]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2020.08.23-13.43.54:231][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.23-13.43.54:232][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.23-13.43.54:233][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.23-13.43.54:233][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.23-13.43.54:234][  0]LogInit: FAudioDevice initialized.
+[2020.08.23-13.43.54:234][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.08.23-13.43.54:416][  0]LogDerivedDataCache: Saved boot cache 0.18s 76MB C:/Users/Aleksei/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.08.23-13.43.54:435][  0]LogInit: Texture streaming: Enabled
+[2020.08.23-13.43.54:469][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.08.23-13.43.54:469][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.08.23-13.43.54:472][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.08.23-13.43.54:523][  0]LogInit: Transaction tracking system initialized
+[2020.08.23-13.43.54:543][  0]BlueprintLog: New page: Editor Load
+[2020.08.23-13.43.54:605][  0]LocalizationService: Localization service is disabled
+[2020.08.23-13.43.55:274][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.08.23-13.43.55:274][  0]LogCook: Display: Mobile HDR setting 1
+[2020.08.23-13.43.55:399][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aleksei/Documents/Unreal Projects/Trening/Content/' took 0.00s
+[2020.08.23-13.43.55:612][  0]SourceControl: Source control is disabled
+[2020.08.23-13.43.55:749][  0]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.08.23-13.43.59:665][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2020.08.23-13.43.59:665][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.08.23-13.43.59:715][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.08.23-13.44.00:868][  0]LogSlate: Window 'Unable to Check Out From Source Control!' being destroyed
+[2020.08.23-13.44.00:869][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.08.23-13.44.00:873][  0]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/NewMap
+/Game/BP_GameGrid
+[2020.08.23-13.44.00:891][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.08.23-13.44.00:892][  0]LogUnrealEdMisc: Loading editor; pre map load, took 11.783
+[2020.08.23-13.44.00:892][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.08.23-13.44.00:909][  0]LightingResults: New page: Lighting Build
+[2020.08.23-13.44.00:910][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.08.23-13.44.00:910][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.23-13.44.00:910][  0]MapCheck: New page: Map Check
+[2020.08.23-13.44.00:910][  0]LightingResults: New page: Lighting Build
+[2020.08.23-13.44.00:921][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024F96829A00), frame # 0
+[2020.08.23-13.44.00:921][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024F96865440), frame # 0
+[2020.08.23-13.44.00:921][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.08.23-13.44.01:030][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2020.08.23-13.44.01:030][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024F829A9800), frame # 0
+[2020.08.23-13.44.01:030][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024F82F5DD00), frame # 0
+[2020.08.23-13.44.01:033][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.08.23-13.44.01:043][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.08.23-13.44.01:045][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.08.23-13.44.01:045][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.237ms to complete.
+[2020.08.23-13.44.01:045][  0]LogFileHelpers: Loading map 'Template_Default' took 0.152
+[2020.08.23-13.44.01:047][  0]LogUnrealEdMisc: Total Editor Startup Time, took 11.939
+[2020.08.23-13.44.01:134][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.23-13.44.01:142][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.23-13.44.01:149][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.23-13.44.01:157][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.23-13.44.01:163][  0]LogCollectionManager: Loaded 0 collections in 0.001040 seconds
+[2020.08.23-13.44.01:176][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Collections/' took 0.00s
+[2020.08.23-13.44.01:176][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aleksei/Documents/Unreal Projects/Trening/Content/Developers/Aleksei/Collections/' took 0.00s
+[2020.08.23-13.44.01:176][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Aleksei/Documents/Unreal Projects/Trening/Content/Collections/' took 0.00s
+[2020.08.23-13.44.01:176][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 3428 classes and 823 folders.
+[2020.08.23-13.44.01:179][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.08.23-13.44.01:216][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.08.23-13.44.01:221][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2020.08.23-13.44.01:317][  0]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.08.23-13.44.01:319][  0]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.08.23-13.44.01:352][  0]LogRenderer: Reallocating scene render targets to support 1308x660 Format 9 NumSamples 1 (Frame:1).
+[2020.08.23-13.44.01:546][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.08.23-13.44.01:546][  0]LogLoad: (Engine Initialization) Total time: 12.44 seconds
+[2020.08.23-13.44.01:546][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.08.23-13.44.01:583][  0]LogAssetRegistry: Asset discovery search completed in 9.2600 seconds
+[2020.08.23-13.44.01:587][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.08.23-13.44.01:592][  0]LogContentStreaming: Texture pool size now 800 MB
+[2020.08.23-13.44.01:614][  0]LogSlate: Took 0.000110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.08.23-13.44.02:576][ 96]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.08.23-13.44.04:142][192]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/BP_StractArrayGameGrid.BP_StractArrayGameGrid
+[2020.08.23-13.44.04:196][194]LogD3D11RHI: Error: agsDriverExtensionsDX11_SetDepthBounds(1,0.000000, 1.000000) returned error code 6. **********PLEASE UPDATE YOUR VIDEO DRIVERS*********
+[2020.08.23-13.44.09:813][731]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Temp/Untitled_1.Untitled_1:PersistentLevel.Untitled
+[2020.08.23-13.44.10:033][731]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 125 classes and 0 folders.
+[2020.08.23-13.44.10:857][731]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.08.23-13.44.15:094][ 80]LogSlate: Window 'Untitled' being destroyed
+[2020.08.23-13.44.15:112][ 80]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.08.23-13.44.15:112][ 80]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.23-13.44.17:297][224]LogClass: Warning: Type mismatch in ArrayX of BP_GameGrid_C - Previous (ArrayProperty) Current(StructProperty) for package:  FObjectReader
+[2020.08.23-13.44.17:322][224]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_GameGrid.BP_GameGrid
+[2020.08.23-13.45.12:669][515]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_GameGrid" FILE="C:/Users/Aleksei/Documents/Unreal Projects/Trening/Content/BP_GameGrid.uasset" SILENT=true
+[2020.08.23-13.45.12:694][515]LogSavePackage: Moving 'C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/BP_GameGrid6DC780E746ABACB4874EA9BDCCFCA54A.tmp' to 'C:/Users/Aleksei/Documents/Unreal Projects/Trening/Content/BP_GameGrid.uasset'
+[2020.08.23-13.45.12:711][515]AssetCheck: New page: Asset Save: BP_GameGrid
+[2020.08.23-13.45.12:711][515]LogContentValidation: Display: Validating Blueprint /Game/BP_GameGrid.BP_GameGrid
+[2020.08.23-13.45.13:724][606]BlueprintLog: New page: Compile BP_GameGrid
+[2020.08.23-13.45.13:763][606]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2020.08.23-13.45.13:808][606]LogSlate: Took 0.021135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.08.23-13.45.16:641][903]LogTemp: Repeating last play command: Selected Viewport
+[2020.08.23-13.45.16:652][903]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.23-13.45.16:652][903]PIE: New page: PIE session: Untitled_1 (Aug 24, 2020, 1:45:16 AM)
+[2020.08.23-13.45.16:653][903]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.08.23-13.45.16:654][903]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.08.23-13.45.16:654][903]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2020.08.23-13.45.16:657][903]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002422s)
+[2020.08.23-13.45.16:658][903]LogAIModule: Creating AISystem for world Untitled_1
+[2020.08.23-13.45.16:658][903]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024FA4014200), frame # 6903
+[2020.08.23-13.45.16:658][903]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024FBBA11300), frame # 6903
+[2020.08.23-13.45.16:658][903]LogPlayLevel: PIE: World Init took: (0.001383s)
+[2020.08.23-13.45.16:658][903]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.004060s)
+[2020.08.23-13.45.16:677][903]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2020.08.23-13.45.16:679][903]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.23-13.45.16:679][903]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.23-13.45.16:679][903]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.23-13.45.16:679][903]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.23-13.45.16:679][903]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.23-13.45.16:679][903]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.23-13.45.16:679][903]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.23-13.45.16:679][903]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.23-13.45.16:680][903]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.23-13.45.16:680][903]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.23-13.45.16:684][903]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.23-13.45.16:684][903]LogAudioMixer: Display: 1: FrontRight
+[2020.08.23-13.45.16:706][903]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2020.08.23-13.45.16:706][903]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.23-13.45.16:706][903]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.23-13.45.16:706][903]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.23-13.45.16:706][903]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.23-13.45.16:720][903]LogInit: FAudioDevice initialized.
+[2020.08.23-13.45.16:732][903]LogLoad: Game class is 'GameModeBase'
+[2020.08.23-13.45.16:734][903]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2020.08.23-19.45.16
+[2020.08.23-13.45.16:734][903]LogWorld: Bringing up level for play took: 0.000735
+[2020.08.23-13.45.16:734][903]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2020.08.23-13.45.16:763][903]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2020.08.23-13.45.16:764][903]PIE: Server logged in
+[2020.08.23-13.45.16:765][903]PIE: Play in editor total start time 0.113 seconds.
+[2020.08.23-13.45.19:557][183]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.23-13.45.19:557][183]LogWorld: BeginTearingDown for /Temp/UEDPIE_0_Untitled_1
+[2020.08.23-13.45.19:558][183]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2020.08.23-13.45.19:558][183]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.23-13.45.19:564][183]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.23-13.45.19:568][183]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.23-13.45.19:609][183]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.23-13.45.19:624][183]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024FBBA11300), frame # 7183
+[2020.08.23-13.45.19:624][183]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024FA4014200), frame # 7183
+[2020.08.23-13.45.19:627][183]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2020.08.23-13.45.19:649][184]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2020.08.23-13.45.27:950][ 40]LogTemp: Repeating last play command: Selected Viewport
+[2020.08.23-13.45.27:961][ 40]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.23-13.45.27:961][ 40]PIE: New page: PIE session: Untitled_1 (Aug 24, 2020, 1:45:27 AM)
+[2020.08.23-13.45.27:962][ 40]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2020.08.23-13.45.27:964][ 40]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002141s)
+[2020.08.23-13.45.27:965][ 40]LogAIModule: Creating AISystem for world Untitled_1
+[2020.08.23-13.45.27:965][ 40]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024FAA93FC00), frame # 8040
+[2020.08.23-13.45.27:965][ 40]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024FAA96A5C0), frame # 8040
+[2020.08.23-13.45.27:965][ 40]LogPlayLevel: PIE: World Init took: (0.001140s)
+[2020.08.23-13.45.27:965][ 40]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003430s)
+[2020.08.23-13.45.27:993][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2020.08.23-13.45.27:995][ 40]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.23-13.45.27:995][ 40]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.23-13.45.27:995][ 40]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.23-13.45.27:995][ 40]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.23-13.45.27:995][ 40]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.23-13.45.27:995][ 40]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.23-13.45.27:995][ 40]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.23-13.45.27:995][ 40]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.23-13.45.27:996][ 40]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.23-13.45.27:996][ 40]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.23-13.45.28:000][ 40]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.23-13.45.28:000][ 40]LogAudioMixer: Display: 1: FrontRight
+[2020.08.23-13.45.28:022][ 40]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2020.08.23-13.45.28:022][ 40]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.23-13.45.28:022][ 40]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.23-13.45.28:022][ 40]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.23-13.45.28:023][ 40]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.23-13.45.28:035][ 40]LogInit: FAudioDevice initialized.
+[2020.08.23-13.45.28:047][ 40]LogLoad: Game class is 'GameModeBase'
+[2020.08.23-13.45.28:048][ 40]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2020.08.23-19.45.28
+[2020.08.23-13.45.28:048][ 40]LogWorld: Bringing up level for play took: 0.000683
+[2020.08.23-13.45.28:048][ 40]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.08.23-13.45.28:051][ 40]PIE: Server logged in
+[2020.08.23-13.45.28:052][ 40]PIE: Play in editor total start time 0.091 seconds.
+[2020.08.23-13.45.41:298][616]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.23-13.45.41:298][616]LogWorld: BeginTearingDown for /Temp/UEDPIE_0_Untitled_1
+[2020.08.23-13.45.41:298][616]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2020.08.23-13.45.41:298][616]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.23-13.45.41:303][616]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.23-13.45.41:306][616]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.23-13.45.41:346][616]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.23-13.45.41:347][616]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024FAA96A5C0), frame # 9616
+[2020.08.23-13.45.41:347][616]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024FAA93FC00), frame # 9616
+[2020.08.23-13.45.41:349][616]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2020.08.23-13.45.41:372][617]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.08.23-13.45.47:540][138]LogTemp: Repeating last play command: Selected Viewport
+[2020.08.23-13.45.47:553][138]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.23-13.45.47:553][138]PIE: New page: PIE session: Untitled_1 (Aug 24, 2020, 1:45:47 AM)
+[2020.08.23-13.45.47:553][138]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2020.08.23-13.45.47:555][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002324s)
+[2020.08.23-13.45.47:556][138]LogAIModule: Creating AISystem for world Untitled_1
+[2020.08.23-13.45.47:556][138]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024FA40AC200), frame # 10138
+[2020.08.23-13.45.47:556][138]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024FBA34AC00), frame # 10138
+[2020.08.23-13.45.47:557][138]LogPlayLevel: PIE: World Init took: (0.001266s)
+[2020.08.23-13.45.47:557][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003729s)
+[2020.08.23-13.45.47:581][138]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2020.08.23-13.45.47:583][138]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.23-13.45.47:583][138]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.23-13.45.47:583][138]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.23-13.45.47:583][138]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.23-13.45.47:583][138]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.23-13.45.47:583][138]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.23-13.45.47:583][138]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.23-13.45.47:584][138]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.23-13.45.47:584][138]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.23-13.45.47:584][138]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.23-13.45.47:589][138]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.23-13.45.47:589][138]LogAudioMixer: Display: 1: FrontRight
+[2020.08.23-13.45.47:611][138]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2020.08.23-13.45.47:611][138]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.23-13.45.47:611][138]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.23-13.45.47:611][138]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.23-13.45.47:611][138]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.23-13.45.47:623][138]LogInit: FAudioDevice initialized.
+[2020.08.23-13.45.47:633][138]LogLoad: Game class is 'GameModeBase'
+[2020.08.23-13.45.47:634][138]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2020.08.23-19.45.47
+[2020.08.23-13.45.47:634][138]LogWorld: Bringing up level for play took: 0.000762
+[2020.08.23-13.45.47:634][138]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.08.23-13.45.47:637][138]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_MacroInstance', from offset 528
+[2020.08.23-13.45.47:637][138]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BP_GameGrid.BP_GameGrid_C:ReceiveBeginPlay
+	Function /Game/BP_GameGrid.BP_GameGrid_C:ExecuteUbergraph_BP_GameGrid
+
+[2020.08.23-13.46.31:300][138]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Engine/EditorBlueprintResources/StandardMacros.StandardMacros
+[2020.08.23-13.48.46:774][138]PIE: Server logged in
+[2020.08.23-13.48.46:775][138]PIE: Play in editor total start time 179.225 seconds.
+[2020.08.23-13.48.55:588][157]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.23-13.48.55:588][157]LogWorld: BeginTearingDown for /Temp/UEDPIE_0_Untitled_1
+[2020.08.23-13.48.55:588][157]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2020.08.23-13.48.55:588][157]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.23-13.48.55:599][157]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.23-13.48.55:603][157]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.23-13.48.55:646][157]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.23-13.48.55:647][157]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024FBA34AC00), frame # 11157
+[2020.08.23-13.48.55:647][157]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024FA40AC200), frame # 11157
+[2020.08.23-13.48.55:650][157]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2020.08.23-13.48.55:674][158]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.08.23-13.48.58:685][488]LogTemp: Repeating last play command: Selected Viewport
+[2020.08.23-13.48.58:698][488]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.23-13.48.58:698][488]PIE: New page: PIE session: Untitled_1 (Aug 24, 2020, 1:48:58 AM)
+[2020.08.23-13.48.58:698][488]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2020.08.23-13.48.58:701][488]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002340s)
+[2020.08.23-13.48.58:702][488]LogAIModule: Creating AISystem for world Untitled_1
+[2020.08.23-13.48.58:702][488]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002501F000A00), frame # 11488
+[2020.08.23-13.48.58:702][488]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002501C2C9940), frame # 11488
+[2020.08.23-13.48.58:702][488]LogPlayLevel: PIE: World Init took: (0.001233s)
+[2020.08.23-13.48.58:702][488]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003692s)
+[2020.08.23-13.48.58:731][488]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2020.08.23-13.48.58:733][488]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.23-13.48.58:733][488]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.23-13.48.58:733][488]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.23-13.48.58:733][488]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.23-13.48.58:733][488]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.23-13.48.58:733][488]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.23-13.48.58:733][488]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.23-13.48.58:733][488]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.23-13.48.58:733][488]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.23-13.48.58:733][488]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.23-13.48.58:738][488]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.23-13.48.58:738][488]LogAudioMixer: Display: 1: FrontRight
+[2020.08.23-13.48.58:761][488]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2020.08.23-13.48.58:761][488]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.23-13.48.58:761][488]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.23-13.48.58:761][488]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.23-13.48.58:761][488]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.23-13.48.58:774][488]LogInit: FAudioDevice initialized.
+[2020.08.23-13.48.58:789][488]LogLoad: Game class is 'GameModeBase'
+[2020.08.23-13.48.58:790][488]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2020.08.23-19.48.58
+[2020.08.23-13.48.58:790][488]LogWorld: Bringing up level for play took: 0.000643
+[2020.08.23-13.48.58:790][488]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2020.08.23-13.48.58:793][488]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_MacroInstance', from offset 528
+[2020.08.23-13.48.58:793][488]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BP_GameGrid.BP_GameGrid_C:ReceiveBeginPlay
+	Function /Game/BP_GameGrid.BP_GameGrid_C:ExecuteUbergraph_BP_GameGrid
+
+[2020.08.23-13.53.10:211][488]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.08.23-13.53.15:345][488]LogD3D11RHI: GetQueryData is taking a very long time (5.0 s)
+[2020.08.23-13.53.20:345][488]LogD3D11RHI: GetQueryData is taking a very long time (10.0 s)
+[2020.08.23-13.55.51:113][488]PIE: Server logged in
+[2020.08.23-13.55.51:491][488]PIE: Play in editor total start time 412.774 seconds.
+[2020.08.23-13.55.55:144][488]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.08.23-13.55.55:147][488]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.23-13.55.55:154][488]LogWorld: BeginTearingDown for /Temp/UEDPIE_0_Untitled_1
+[2020.08.23-13.55.55:780][488]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2020.08.23-13.55.55:887][488]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.23-13.55.56:672][488]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.23-13.55.56:954][488]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.23-13.55.58:568][488]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.23-13.55.59:112][488]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002501C2C9940), frame # 11488
+[2020.08.23-13.55.59:113][488]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002501F000A00), frame # 11488
+[2020.08.23-13.55.59:342][488]LogUObjectHash: Compacting FUObjectHashTables data took  55.11ms
+[2020.08.23-13.56.00:972][489]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.08.23-13.57.08:370][958]BlueprintLog: New page: Compile BP_GameGrid
+[2020.08.23-13.57.08:771][958]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2020.08.23-13.57.10:277][ 80]LogTemp: Repeating last play command: Selected Viewport
+[2020.08.23-13.57.10:386][ 80]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.23-13.57.10:409][ 80]PIE: New page: PIE session: Untitled_1 (Aug 24, 2020, 1:57:10 AM)
+[2020.08.23-13.57.10:442][ 80]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2020.08.23-13.57.10:718][ 80]LogPlayLevel: PIE: StaticDuplicateObject took: (0.262941s)
+[2020.08.23-13.57.10:944][ 80]LogAIModule: Creating AISystem for world Untitled_1
+[2020.08.23-13.57.10:960][ 80]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024FA40AC400), frame # 18080
+[2020.08.23-13.57.10:974][ 80]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024FC7D851C0), frame # 18080
+[2020.08.23-13.57.11:031][ 80]LogPlayLevel: PIE: World Init took: (0.312699s)
+[2020.08.23-13.57.11:031][ 80]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.589242s)
+[2020.08.23-13.57.11:089][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   5.58ms
+[2020.08.23-13.57.11:123][ 80]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.23-13.57.11:123][ 80]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.23-13.57.11:123][ 80]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.23-13.57.11:123][ 80]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.23-13.57.11:123][ 80]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.23-13.57.11:123][ 80]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.23-13.57.11:123][ 80]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.23-13.57.11:132][ 80]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.23-13.57.11:184][ 80]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.23-13.57.11:184][ 80]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.23-13.57.11:219][ 80]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.23-13.57.11:219][ 80]LogAudioMixer: Display: 1: FrontRight
+[2020.08.23-13.57.11:279][ 80]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2020.08.23-13.57.11:286][ 80]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.23-13.57.11:286][ 80]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.23-13.57.11:287][ 80]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.23-13.57.11:289][ 80]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.23-13.57.11:303][ 80]LogInit: FAudioDevice initialized.
+[2020.08.23-13.57.11:445][ 80]LogLoad: Game class is 'GameModeBase'
+[2020.08.23-13.57.11:548][ 80]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2020.08.23-19.57.11
+[2020.08.23-13.57.11:573][ 80]LogWorld: Bringing up level for play took: 0.117931
+[2020.08.23-13.57.11:644][ 80]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2020.08.23-13.57.11:857][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:857][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:857][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:857][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:857][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:858][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:858][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:858][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:858][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:858][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:858][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:858][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:858][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:858][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:858][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:858][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:858][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:859][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:859][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:859][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:859][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:859][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:859][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:859][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:859][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:859][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:859][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:859][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:859][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:860][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:860][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:860][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:860][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:860][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:860][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:860][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:860][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:861][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:861][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:861][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:861][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:861][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:861][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:861][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:861][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:861][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:861][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:861][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:861][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:862][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:862][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:862][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:862][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:862][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:862][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:862][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:862][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:862][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:862][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:862][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:862][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:863][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:863][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:863][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:863][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:863][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:863][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:863][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:863][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:863][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:863][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:863][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:863][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:863][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:864][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:864][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:864][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:864][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:864][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:864][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:864][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:864][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:864][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:864][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:864][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:864][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:865][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:865][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:865][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:865][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:865][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:865][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:865][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:865][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:865][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:865][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:865][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:865][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:866][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:866][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:866][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:866][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:866][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:866][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:866][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:866][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:866][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:866][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:866][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:866][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:867][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:867][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:867][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:867][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:867][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:867][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:867][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:868][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:868][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:868][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:868][ 80]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.11:868][ 80]PIE: Server logged in
+[2020.08.23-13.57.11:870][ 80]PIE: Play in editor total start time 1.552 seconds.
+[2020.08.23-13.57.24:247][518]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.23-13.57.24:247][518]LogWorld: BeginTearingDown for /Temp/UEDPIE_0_Untitled_1
+[2020.08.23-13.57.24:247][518]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2020.08.23-13.57.24:247][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.23-13.57.24:261][518]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.23-13.57.24:268][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.23-13.57.24:316][518]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.23-13.57.24:317][518]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024FC7D851C0), frame # 19518
+[2020.08.23-13.57.24:317][518]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024FA40AC400), frame # 19518
+[2020.08.23-13.57.24:320][518]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2020.08.23-13.57.24:444][519]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2020.08.23-13.57.34:204][347]BlueprintLog: New page: Compile BP_GameGrid
+[2020.08.23-13.57.34:256][347]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2020.08.23-13.57.34:998][408]LogTemp: Repeating last play command: Selected Viewport
+[2020.08.23-13.57.35:010][408]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.08.23-13.57.35:010][408]PIE: New page: PIE session: Untitled_1 (Aug 24, 2020, 1:57:35 AM)
+[2020.08.23-13.57.35:046][408]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2020.08.23-13.57.35:048][408]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002291s)
+[2020.08.23-13.57.35:049][408]LogAIModule: Creating AISystem for world Untitled_1
+[2020.08.23-13.57.35:049][408]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002506C76A200), frame # 20408
+[2020.08.23-13.57.35:049][408]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002506CE9E200), frame # 20408
+[2020.08.23-13.57.35:049][408]LogPlayLevel: PIE: World Init took: (0.001068s)
+[2020.08.23-13.57.35:049][408]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003510s)
+[2020.08.23-13.57.35:079][408]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2020.08.23-13.57.35:081][408]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.23-13.57.35:081][408]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.23-13.57.35:081][408]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.23-13.57.35:081][408]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.23-13.57.35:081][408]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.23-13.57.35:081][408]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.23-13.57.35:081][408]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.23-13.57.35:081][408]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.23-13.57.35:081][408]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.23-13.57.35:081][408]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.23-13.57.35:087][408]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.23-13.57.35:087][408]LogAudioMixer: Display: 1: FrontRight
+[2020.08.23-13.57.35:110][408]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2020.08.23-13.57.35:110][408]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.23-13.57.35:110][408]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.23-13.57.35:110][408]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.23-13.57.35:111][408]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.23-13.57.35:123][408]LogInit: FAudioDevice initialized.
+[2020.08.23-13.57.35:136][408]LogLoad: Game class is 'GameModeBase'
+[2020.08.23-13.57.35:138][408]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2020.08.23-19.57.35
+[2020.08.23-13.57.35:138][408]LogWorld: Bringing up level for play took: 0.000913
+[2020.08.23-13.57.35:138][408]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.08.23-13.57.35:142][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:155][408]LogBlueprintUserMessages: [BP_GameGrid_2] 0
+[2020.08.23-13.57.35:155][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:155][408]LogBlueprintUserMessages: [BP_GameGrid_2] 1
+[2020.08.23-13.57.35:155][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:155][408]LogBlueprintUserMessages: [BP_GameGrid_2] 2
+[2020.08.23-13.57.35:155][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:155][408]LogBlueprintUserMessages: [BP_GameGrid_2] 3
+[2020.08.23-13.57.35:155][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:155][408]LogBlueprintUserMessages: [BP_GameGrid_2] 4
+[2020.08.23-13.57.35:155][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:155][408]LogBlueprintUserMessages: [BP_GameGrid_2] 5
+[2020.08.23-13.57.35:155][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:155][408]LogBlueprintUserMessages: [BP_GameGrid_2] 6
+[2020.08.23-13.57.35:155][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:155][408]LogBlueprintUserMessages: [BP_GameGrid_2] 7
+[2020.08.23-13.57.35:155][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:155][408]LogBlueprintUserMessages: [BP_GameGrid_2] 8
+[2020.08.23-13.57.35:155][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:155][408]LogBlueprintUserMessages: [BP_GameGrid_2] 9
+[2020.08.23-13.57.35:155][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:155][408]LogBlueprintUserMessages: [BP_GameGrid_2] 10
+[2020.08.23-13.57.35:155][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:155][408]LogBlueprintUserMessages: [BP_GameGrid_2] 11
+[2020.08.23-13.57.35:155][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:155][408]LogBlueprintUserMessages: [BP_GameGrid_2] 12
+[2020.08.23-13.57.35:155][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:155][408]LogBlueprintUserMessages: [BP_GameGrid_2] 13
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 14
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 15
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 16
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 17
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 18
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 19
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 20
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 21
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 22
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 23
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 24
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 25
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 26
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 27
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 28
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 29
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 30
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 31
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 32
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 33
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 34
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 35
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:156][408]LogBlueprintUserMessages: [BP_GameGrid_2] 36
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 37
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 38
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 39
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 40
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 41
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 42
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 43
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 44
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 45
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 46
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 47
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 48
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 49
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 50
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 51
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 52
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 53
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 54
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 55
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 56
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 57
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 58
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 59
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 60
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 61
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:157][408]LogBlueprintUserMessages: [BP_GameGrid_2] 62
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 63
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 64
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 65
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 66
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 67
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 68
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 69
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 70
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 71
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 72
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 73
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 74
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 75
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 76
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 77
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 78
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 79
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 80
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:158][408]LogBlueprintUserMessages: [BP_GameGrid_2] 81
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 82
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 83
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 84
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 85
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 86
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 87
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 88
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 89
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 90
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 91
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 92
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 93
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 94
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 95
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 96
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 97
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 98
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 99
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 100
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 101
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 102
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 103
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 104
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 105
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 106
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 107
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 108
+[2020.08.23-13.57.35:159][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:160][408]LogBlueprintUserMessages: [BP_GameGrid_2] 109
+[2020.08.23-13.57.35:160][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:160][408]LogBlueprintUserMessages: [BP_GameGrid_2] 110
+[2020.08.23-13.57.35:160][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:160][408]LogBlueprintUserMessages: [BP_GameGrid_2] 111
+[2020.08.23-13.57.35:160][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:160][408]LogBlueprintUserMessages: [BP_GameGrid_2] 112
+[2020.08.23-13.57.35:160][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:160][408]LogBlueprintUserMessages: [BP_GameGrid_2] 113
+[2020.08.23-13.57.35:160][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:160][408]LogBlueprintUserMessages: [BP_GameGrid_2] 114
+[2020.08.23-13.57.35:160][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:160][408]LogBlueprintUserMessages: [BP_GameGrid_2] 115
+[2020.08.23-13.57.35:160][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:160][408]LogBlueprintUserMessages: [BP_GameGrid_2] 116
+[2020.08.23-13.57.35:160][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:160][408]LogBlueprintUserMessages: [BP_GameGrid_2] 117
+[2020.08.23-13.57.35:160][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:160][408]LogBlueprintUserMessages: [BP_GameGrid_2] 118
+[2020.08.23-13.57.35:160][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:160][408]LogBlueprintUserMessages: [BP_GameGrid_2] 119
+[2020.08.23-13.57.35:160][408]LogBlueprintUserMessages: [BP_GameGrid_2] 
+[2020.08.23-13.57.35:160][408]LogBlueprintUserMessages: [BP_GameGrid_2] 120
+[2020.08.23-13.57.35:160][408]PIE: Server logged in
+[2020.08.23-13.57.35:161][408]PIE: Play in editor total start time 0.151 seconds.
+[2020.08.23-13.58.07:493][960]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.23-13.58.07:493][960]LogWorld: BeginTearingDown for /Temp/UEDPIE_0_Untitled_1
+[2020.08.23-13.58.07:494][960]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2020.08.23-13.58.07:494][960]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.23-13.58.07:504][960]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.08.23-13.58.07:511][960]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.23-13.58.07:560][960]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.23-13.58.07:561][960]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002506CE9E200), frame # 23960
+[2020.08.23-13.58.07:561][960]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002506C76A200), frame # 23960
+[2020.08.23-13.58.07:563][960]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2020.08.23-13.58.07:602][961]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.08.23-13.59.26:308][148]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2020.08.23-13.59.26:423][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Autosaves/Temp/Untitled_1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.08.23-13.59.26:968][148]LogSavePackage: Moving 'C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Untitled_1_Auto136FDC7FF42B240546271FF8AF5998699.tmp' to 'C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2020.08.23-13.59.27:099][148]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.841
+[2020.08.23-13.59.27:099][148]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.841
+[2020.08.23-13.59.27:131][148]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_GameGrid] ([1] browsable assets)...
+[2020.08.23-13.59.27:141][148]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_GameGrid]
+[2020.08.23-13.59.27:141][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_GameGrid" FILE="C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Autosaves/Game/BP_GameGrid_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.08.23-13.59.27:415][148]LogSavePackage: Moving 'C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/BP_GameGrid_Auto13964E0844B2E0146C452B581EB6E23BC.tmp' to 'C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Autosaves/Game/BP_GameGrid_Auto1.uasset'
+[2020.08.23-13.59.27:416][148]LogFileHelpers: Auto-saving content packages took 0.317
+[2020.08.23-14.01.00:263][640]LogSlate: Took 0.083786 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.08.23-14.02.31:665][ 56]LogSlate: Window 'Change Variable Type' being destroyed
+[2020.08.23-14.02.33:450][102]LogSlate: Window 'Find in Blueprints' being destroyed
+[2020.08.23-14.02.33:459][102]LogSlate: Window 'Find in Blueprints' being destroyed
+[2020.08.23-14.02.41:403][527]LogSlate: Window 'Change Variable Type' being destroyed
+[2020.08.23-14.02.42:660][584]LogSlate: Window 'Find in Blueprints' being destroyed
+[2020.08.23-14.02.42:667][584]LogSlate: Window 'Find in Blueprints' being destroyed
+[2020.08.23-14.04.09:477][483]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.08.23-14.04.09:477][483]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.23-14.04.39:971][737]LogSlate: Window 'Delete Variable' being destroyed
+[2020.08.23-14.04.47:743][426]LogSlate: Window 'Change Variable Type' being destroyed
+[2020.08.23-14.04.48:826][545]LogSlate: Window 'Find in Blueprints' being destroyed
+[2020.08.23-14.04.48:833][545]LogSlate: Window 'Find in Blueprints' being destroyed
+[2020.08.23-14.09.29:037][256]LogUObjectHash: Compacting FUObjectHashTables data took  38.87ms
+[2020.08.23-14.09.29:154][256]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Autosaves/Temp/Untitled_1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.08.23-14.09.29:268][256]LogSavePackage: Moving 'C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Untitled_1_Auto23A988F1746BFBF85B90AF9A45A57D56A.tmp' to 'C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Autosaves/Temp/Untitled_1_Auto2.umap'
+[2020.08.23-14.09.29:330][256]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 1.686
+[2020.08.23-14.09.29:341][256]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.686
+[2020.08.23-14.09.29:342][256]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_GameGrid] ([1] browsable assets)...
+[2020.08.23-14.09.29:342][256]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_GameGrid]
+[2020.08.23-14.09.29:342][256]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_GameGrid" FILE="C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Autosaves/Game/BP_GameGrid_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2020.08.23-14.09.29:405][256]LogSavePackage: Moving 'C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/BP_GameGrid_Auto245D2156F4B8EEE9B2277FEAF247BF5E2.tmp' to 'C:/Users/Aleksei/Documents/Unreal Projects/Trening/Saved/Autosaves/Game/BP_GameGrid_Auto2.uasset'
+[2020.08.23-14.09.29:406][256]LogFileHelpers: Auto-saving content packages took 0.066
+[2020.08.23-14.41.05:475][475]LogSlate: Window 'BP_GameGrid' being destroyed
+[2020.08.23-14.41.05:678][475]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.08.23-14.41.05:678][475]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.23-14.41.12:707][ 14]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.08.23-14.41.12:708][ 14]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.08.23-14.41.16:482][274]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.08.23-14.41.33:148][577]Running D:/Epic/Engine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/Aleksei/Documents/Unreal Projects/Trening/Trening.uproject" -game -rocket -progress
+[2020.08.23-14.41.34:009][577]Discovering modules, targets and source code for project...
+[2020.08.23-14.41.57:151][577]Binding IntelliSense data...
+[2020.08.23-14.42.17:531][577]Binding IntelliSense data... 50%
+[2020.08.23-14.42.17:532][577]Binding IntelliSense data... 100%
+[2020.08.23-14.42.17:532][577]Writing project files...
+[2020.08.23-14.42.28:710][577]Writing project files... 67%
+[2020.08.23-14.42.28:710][577]Writing project files... 100%
+[2020.08.23-14.42.32:458][577]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.08.23-14.42.32:678][577]Candidate modules for hot reload:
+[2020.08.23-14.42.32:678][577]  Trening
+[2020.08.23-14.42.32:678][577]Launching UnrealBuildTool... [D:/Epic/Engine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Trening,556 TreningEditor Win64 Development -Project="C:/Users/Aleksei/Documents/Unreal Projects/Trening/Trening.uproject" "C:/Users/Aleksei/Documents/Unreal Projects/Trening/Trening.uproject"  -IgnoreJunk]
+[2020.08.23-14.43.54:598][577]CompilerResultsLog: New page: Compilation - Aug 24, 2020, 2:43:54 AM
+[2020.08.23-14.43.54:611][577]CompilerResultsLog: Creating makefile for TreningEditor (no existing makefile)
+[2020.08.23-14.43.54:621][577]CompilerResultsLog: Parsing headers for TreningEditor
+[2020.08.23-14.43.54:622][577]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Aleksei\Documents\Unreal Projects\Trening\Trening.uproject" "C:\Users\Aleksei\Documents\Unreal Projects\Trening\Intermediate\Build\Win64\TreningEditor\Development\TreningEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Aleksei\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.08.23-14.43.54:623][577]CompilerResultsLog: Reflection code generated for TreningEditor in 44.2452115 seconds
+[2020.08.23-14.43.54:623][577]CompilerResultsLog: Building TreningEditor...
+[2020.08.23-14.43.54:623][577]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.08.23-14.43.54:623][577]CompilerResultsLog: Distributing 9 actions to XGE
+[2020.08.23-14.43.54:623][577]CompilerResultsLog: --------------------Build System Warning---------------------------------------
+[2020.08.23-14.43.54:623][577]CompilerResultsLog: License is invalid:
+[2020.08.23-14.43.54:623][577]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+[2020.08.23-14.43.54:623][577]CompilerResultsLog:     This build will run in standalone mode.
+[2020.08.23-14.43.54:623][577]CompilerResultsLog: 
+[2020.08.23-14.43.54:623][577]CompilerResultsLog: -------------------------------------------------------------------------------
+[2020.08.23-14.43.54:623][577]CompilerResultsLog: --------------------Project: Default-------------------------------------------
+[2020.08.23-14.43.54:623][577]CompilerResultsLog: GameGrid.cpp (0:16.43 at +0:00)
+[2020.08.23-14.43.54:623][577]CompilerResultsLog: Trening.cpp (0:00.86 at +0:16)
+[2020.08.23-14.43.54:623][577]CompilerResultsLog: TreningGameModeBase.cpp (0:03.79 at +0:17)
+[2020.08.23-14.43.54:623][577]CompilerResultsLog: GameGrid.gen.cpp (0:03.48 at +0:21)
+[2020.08.23-14.43.54:623][577]CompilerResultsLog: Trening.init.gen.cpp (0:00.76 at +0:24)
+[2020.08.23-14.43.54:623][577]CompilerResultsLog: TreningGameModeBase.gen.cpp (0:01.78 at +0:25)
+[2020.08.23-14.43.54:623][577]CompilerResultsLog: UE4Editor-Trening-0556.dll (0:01.21 at +0:27)
+[2020.08.23-14.43.54:624][577]CompilerResultsLog:    ????????? ??????⥪? C:\Users\Aleksei\Documents\Unreal Projects\Trening\Intermediate\Build\Win64\UE4Editor\Development\Trening\UE4Editor-Trening-0556.suppressed.lib ? ??ꥪ? C:\Users\Aleksei\Documents\Unreal Projects\Trening\Intermediate\Build\Win64\UE4Editor\Development\Trening\UE4Editor-Trening-0556.suppressed.exp
+[2020.08.23-14.43.54:625][577]CompilerResultsLog: UE4Editor-Trening-0556.lib (0:00.11 at +0:28)
+[2020.08.23-14.43.54:625][577]CompilerResultsLog:    ????????? ??????⥪? C:\Users\Aleksei\Documents\Unreal Projects\Trening\Intermediate\Build\Win64\UE4Editor\Development\Trening\UE4Editor-Trening-0556.lib ? ??ꥪ? C:\Users\Aleksei\Documents\Unreal Projects\Trening\Intermediate\Build\Win64\UE4Editor\Development\Trening\UE4Editor-Trening-0556.exp
+[2020.08.23-14.43.54:625][577]CompilerResultsLog: TreningEditor.target (0:01.09 at +0:28)
+[2020.08.23-14.43.54:626][577]CompilerResultsLog: ---------------------- Done ----------------------
+[2020.08.23-14.43.54:626][577]CompilerResultsLog: 
+[2020.08.23-14.43.54:626][577]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
+[2020.08.23-14.43.54:626][577]CompilerResultsLog: 
+[2020.08.23-14.43.54:626][577]CompilerResultsLog: 1 build system warning(s):
+[2020.08.23-14.43.54:626][577]CompilerResultsLog:    - License is invalid
+[2020.08.23-14.43.54:626][577]CompilerResultsLog: 
+[2020.08.23-14.43.54:626][577]CompilerResultsLog: Total time in XGE executor: 31.82 seconds
+[2020.08.23-14.43.54:626][577]CompilerResultsLog: Total execution time: 81.54 seconds
+[2020.08.23-14.43.54:634][577]LogMainFrame: MainFrame: Module compiling took 82.155 seconds
+[2020.08.23-14.43.55:074][577]LogContentBrowser: Native class hierarchy populated in 0.1811 seconds. Added 3428 classes and 823 folders.
+[2020.08.23-14.43.55:096][577]Display: HotReload took 82.7s.
+[2020.08.23-14.43.55:100][577]Warning: HotReload operation took 82.7s.
+[2020.08.23-14.43.55:364][577]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.08.23-14.43.57:289][578]LogHotReload: New module detected: UE4Editor-Trening-0556.dll
+[2020.08.23-14.43.57:314][579]LogHotReload: Starting Hot-Reload from IDE
+[2020.08.23-14.43.57:662][579]LogClass: Could not find existing class GameGrid in package /Script/Trening for HotReload, assuming new class
+[2020.08.23-14.43.57:762][579]LogContentBrowser: Native class hierarchy updated for 'Trening' in 0.0220 seconds. Added 2 classes and 2 folders.
+[2020.08.23-14.43.57:820][579]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.08.23-14.44.00:015][579]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 3429 classes and 823 folders.
+[2020.08.23-14.44.00:020][579]Display: HotReload took  2.7s.
+[2020.08.23-14.49.26:947][199]Candidate modules for hot reload:
+[2020.08.23-14.49.26:947][199]  Trening
+[2020.08.23-14.49.26:947][199]Launching UnrealBuildTool... [D:/Epic/Engine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Trening,5802 TreningEditor Win64 Development -Project="C:/Users/Aleksei/Documents/Unreal Projects/Trening/Trening.uproject" "C:/Users/Aleksei/Documents/Unreal Projects/Trening/Trening.uproject"  -IgnoreJunk]
+[2020.08.23-14.49.26:949][199]Warning: Starting HotReload took  0.1s.
+[2020.08.23-14.49.30:848][492]CompilerResultsLog: New page: Compilation - Aug 24, 2020, 2:49:30 AM
+[2020.08.23-14.49.30:859][492]CompilerResultsLog: Building TreningEditor...
+[2020.08.23-14.49.30:859][492]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.08.23-14.49.30:859][492]CompilerResultsLog: Distributing 5 actions to XGE
+[2020.08.23-14.49.30:859][492]CompilerResultsLog: --------------------Build System Warning---------------------------------------
+[2020.08.23-14.49.30:859][492]CompilerResultsLog: License is invalid:
+[2020.08.23-14.49.30:859][492]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+[2020.08.23-14.49.30:859][492]CompilerResultsLog:     This build will run in standalone mode.
+[2020.08.23-14.49.30:859][492]CompilerResultsLog: 
+[2020.08.23-14.49.30:859][492]CompilerResultsLog: -------------------------------------------------------------------------------
+[2020.08.23-14.49.30:859][492]CompilerResultsLog: --------------------Project: Default-------------------------------------------
+[2020.08.23-14.49.30:860][492]CompilerResultsLog: GameGrid.cpp (0:01.09 at +0:00)
+[2020.08.23-14.49.30:860][492]CompilerResultsLog: Error: C:\Users\Aleksei\Documents\Unreal Projects\Trening\Source\Trening\GameGrid.h(25) : error C2143: ᨭ⠪????᪠? ?訡??: ??????⢨? ";" ??। "]"
+[2020.08.23-14.49.30:860][492]CompilerResultsLog: Error: C:\Users\Aleksei\Documents\Unreal Projects\Trening\Source\Trening\GameGrid.h(25) : error C2238: ???।???????? ???ᥬ? ??। ";"
+[2020.08.23-14.49.30:860][492]CompilerResultsLog: 
+[2020.08.23-14.49.30:860][492]CompilerResultsLog: Error executing D:\Epic\Engine\UE_4.25\Engine\Build\Windows\cl-filter\cl-filter.exe (tool returned code: 2)
+[2020.08.23-14.49.30:860][492]CompilerResultsLog: GameGrid.gen.cpp (0:00.75 at +0:01)
+[2020.08.23-14.49.30:860][492]CompilerResultsLog: Error: C:\Users\Aleksei\Documents\Unreal Projects\Trening\Source\Trening/GameGrid.h(25) : error C2143: ᨭ⠪????᪠? ?訡??: ??????⢨? ";" ??। "]"
+[2020.08.23-14.49.30:860][492]CompilerResultsLog: Error: C:\Users\Aleksei\Documents\Unreal Projects\Trening\Source\Trening/GameGrid.h(25) : error C2238: ???।???????? ???ᥬ? ??। ";"
+[2020.08.23-14.49.30:860][492]CompilerResultsLog: 
+[2020.08.23-14.49.30:860][492]CompilerResultsLog: Error executing D:\Epic\Engine\UE_4.25\Engine\Build\Windows\cl-filter\cl-filter.exe (tool returned code: 2)
+[2020.08.23-14.49.30:860][492]CompilerResultsLog: ---------------------- Done ----------------------
+[2020.08.23-14.49.30:860][492]CompilerResultsLog: 
+[2020.08.23-14.49.30:860][492]CompilerResultsLog:     Rebuild All: 0 succeeded, 1 failed, 0 skipped
+[2020.08.23-14.49.30:860][492]CompilerResultsLog: 
+[2020.08.23-14.49.30:860][492]CompilerResultsLog: 1 build system warning(s):
+[2020.08.23-14.49.30:860][492]CompilerResultsLog:    - License is invalid
+[2020.08.23-14.49.30:860][492]CompilerResultsLog: 
+[2020.08.23-14.49.30:861][492]LogMainFrame: MainFrame: Module compiling took 3.924 seconds
+[2020.08.23-14.49.30:861][492]Warning: HotReload failed, recompile failed
+[2020.08.23-14.49.32:469][605]LogSlate: Took 0.079124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.08.23-14.49.32:472][605]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: 'ᨭ (U+1a2d)'
+[2020.08.23-14.49.32:529][605]LogSlate: Took 0.055936 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2020.08.23-14.54.32:740][120]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.08.23-14.54.32:740][120]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.08.23-14.54.34:399][215]LogSlate: Window 'Message Log' being destroyed
+[2020.08.23-14.54.35:762][353]Candidate modules for hot reload:
+[2020.08.23-14.54.35:762][353]  Trening
+[2020.08.23-14.54.35:763][353]Launching UnrealBuildTool... [D:/Epic/Engine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Trening,9858 TreningEditor Win64 Development -Project="C:/Users/Aleksei/Documents/Unreal Projects/Trening/Trening.uproject" "C:/Users/Aleksei/Documents/Unreal Projects/Trening/Trening.uproject"  -IgnoreJunk]
+[2020.08.23-14.54.35:764][353]Warning: Starting HotReload took  0.0s.
+[2020.08.23-14.55.17:421][634]CompilerResultsLog: New page: Compilation - Aug 24, 2020, 2:55:17 AM
+[2020.08.23-14.55.17:421][634]CompilerResultsLog: Parsing headers for TreningEditor
+[2020.08.23-14.55.17:421][634]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Aleksei\Documents\Unreal Projects\Trening\Trening.uproject" "C:\Users\Aleksei\Documents\Unreal Projects\Trening\Intermediate\Build\Win64\TreningEditor\Development\TreningEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Aleksei\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.08.23-14.55.17:421][634]CompilerResultsLog: Reflection code generated for TreningEditor in 36.8280295 seconds
+[2020.08.23-14.55.17:421][634]CompilerResultsLog: Building TreningEditor...
+[2020.08.23-14.55.17:421][634]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.08.23-14.55.17:421][634]CompilerResultsLog: Distributing 3 actions to XGE
+[2020.08.23-14.55.17:421][634]CompilerResultsLog: --------------------Build System Warning---------------------------------------
+[2020.08.23-14.55.17:421][634]CompilerResultsLog: License is invalid:
+[2020.08.23-14.55.17:421][634]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+[2020.08.23-14.55.17:421][634]CompilerResultsLog:     This build will run in standalone mode.
+[2020.08.23-14.55.17:421][634]CompilerResultsLog: 
+[2020.08.23-14.55.17:421][634]CompilerResultsLog: -------------------------------------------------------------------------------
+[2020.08.23-14.55.17:421][634]CompilerResultsLog: --------------------Project: Default-------------------------------------------
+[2020.08.23-14.55.17:422][634]CompilerResultsLog: UE4Editor-Trening-9858.dll (0:01.37 at +0:00)
+[2020.08.23-14.55.17:424][634]CompilerResultsLog:    ????????? ??????⥪? C:\Users\Aleksei\Documents\Unreal Projects\Trening\Intermediate\Build\Win64\UE4Editor\Development\Trening\UE4Editor-Trening-9858.suppressed.lib ? ??ꥪ? C:\Users\Aleksei\Documents\Unreal Projects\Trening\Intermediate\Build\Win64\UE4Editor\Development\Trening\UE4Editor-Trening-9858.suppressed.exp
+[2020.08.23-14.55.17:425][634]CompilerResultsLog: UE4Editor-Trening-9858.lib (0:00.14 at +0:01)
+[2020.08.23-14.55.17:425][634]CompilerResultsLog:    ????????? ??????⥪? C:\Users\Aleksei\Documents\Unreal Projects\Trening\Intermediate\Build\Win64\UE4Editor\Development\Trening\UE4Editor-Trening-9858.lib ? ??ꥪ? C:\Users\Aleksei\Documents\Unreal Projects\Trening\Intermediate\Build\Win64\UE4Editor\Development\Trening\UE4Editor-Trening-9858.exp
+[2020.08.23-14.55.17:425][634]CompilerResultsLog: TreningEditor.target (0:01.60 at +0:01)
+[2020.08.23-14.55.17:425][634]CompilerResultsLog: ---------------------- Done ----------------------
+[2020.08.23-14.55.17:425][634]CompilerResultsLog: 
+[2020.08.23-14.55.17:425][634]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
+[2020.08.23-14.55.17:425][634]CompilerResultsLog: 
+[2020.08.23-14.55.17:425][634]CompilerResultsLog: 1 build system warning(s):
+[2020.08.23-14.55.17:425][634]CompilerResultsLog:    - License is invalid
+[2020.08.23-14.55.17:425][634]CompilerResultsLog: 
+[2020.08.23-14.55.17:425][634]CompilerResultsLog: Total time in XGE executor: 3.45 seconds
+[2020.08.23-14.55.17:425][634]CompilerResultsLog: Total execution time: 41.54 seconds
+[2020.08.23-14.55.17:425][634]LogMainFrame: MainFrame: Module compiling took 41.666 seconds
+[2020.08.23-14.55.18:259][634]LogClass: Could not find existing class GameGrid in package /Script/Trening for HotReload, assuming new class
+[2020.08.23-14.55.18:319][634]LogHotReload: Re-instancing GameGrid after hot-reload.
+[2020.08.23-14.55.19:297][634]LogContentBrowser: Native class hierarchy updated for 'Trening' in 0.0278 seconds. Added 2 classes and 2 folders.
+[2020.08.23-14.55.19:329][634]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.08.23-14.55.28:974][634]LogContentBrowser: Native class hierarchy populated in 0.0459 seconds. Added 3429 classes and 823 folders.
+[2020.08.23-14.55.28:983][634]Display: HotReload took 53.3s.
+[2020.08.23-14.58.59:019][819]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.08.23-14.58.59:019][819]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.08.23-14.59.00:563][939]Candidate modules for hot reload:
+[2020.08.23-14.59.00:564][939]  Trening
+[2020.08.23-14.59.00:564][939]Launching UnrealBuildTool... [D:/Epic/Engine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Trening,414 TreningEditor Win64 Development -Project="C:/Users/Aleksei/Documents/Unreal Projects/Trening/Trening.uproject" "C:/Users/Aleksei/Documents/Unreal Projects/Trening/Trening.uproject"  -IgnoreJunk]
+[2020.08.23-14.59.00:566][939]Warning: Starting HotReload took  0.0s.
+[2020.08.23-14.59.07:864][497]CompilerResultsLog: New page: Compilation - Aug 24, 2020, 2:59:07 AM
+[2020.08.23-14.59.07:865][497]CompilerResultsLog: Parsing headers for TreningEditor
+[2020.08.23-14.59.07:865][497]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Aleksei\Documents\Unreal Projects\Trening\Trening.uproject" "C:\Users\Aleksei\Documents\Unreal Projects\Trening\Intermediate\Build\Win64\TreningEditor\Development\TreningEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Aleksei\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.08.23-14.59.07:865][497]CompilerResultsLog: Error: C:/Users/Aleksei/Documents/Unreal Projects/Trening/Source/Trening/GameGrid.h(26)  : LogCompile: Error: Unknown variable specifier 'EditAnivhere'
+[2020.08.23-14.59.07:865][497]CompilerResultsLog: Error: C:/Users/Aleksei/Documents/Unreal Projects/Trening/Source/Trening/GameGrid.h(27)  : Error: Missing '*' in Expected a pointer type
+[2020.08.23-14.59.07:866][497]LogMainFrame: MainFrame: Module compiling took 7.307 seconds
+[2020.08.23-14.59.07:866][497]Warning: HotReload failed, recompile failed
+[2020.08.23-15.00.33:228][137]LogSlate: Window 'Message Log' being destroyed
+[2020.08.23-15.00.34:386][243]Candidate modules for hot reload:
+[2020.08.23-15.00.34:386][243]  Trening
+[2020.08.23-15.00.34:387][243]Launching UnrealBuildTool... [D:/Epic/Engine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Trening,1196 TreningEditor Win64 Development -Project="C:/Users/Aleksei/Documents/Unreal Projects/Trening/Trening.uproject" "C:/Users/Aleksei/Documents/Unreal Projects/Trening/Trening.uproject"  -IgnoreJunk]
+[2020.08.23-15.00.34:407][243]Warning: Starting HotReload took  0.0s.
+[2020.08.23-15.01.09:441][952]CompilerResultsLog: New page: Compilation - Aug 24, 2020, 3:01:09 AM
+[2020.08.23-15.01.09:441][952]CompilerResultsLog: Parsing headers for TreningEditor
+[2020.08.23-15.01.09:441][952]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Aleksei\Documents\Unreal Projects\Trening\Trening.uproject" "C:\Users\Aleksei\Documents\Unreal Projects\Trening\Intermediate\Build\Win64\TreningEditor\Development\TreningEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Aleksei\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.08.23-15.01.09:441][952]CompilerResultsLog: Error: C:/Users/Aleksei/Documents/Unreal Projects/Trening/Source/Trening/GameGrid.h(26)  : LogCompile: Error: Unknown variable specifier 'EditAniWhere'
+[2020.08.23-15.01.09:441][952]CompilerResultsLog: Error: C:/Users/Aleksei/Documents/Unreal Projects/Trening/Source/Trening/GameGrid.h(27)  : Error: Missing '*' in Expected a pointer type
+[2020.08.23-15.01.09:441][952]LogMainFrame: MainFrame: Module compiling took 35.059 seconds
+[2020.08.23-15.01.09:441][952]Warning: HotReload failed, recompile failed
+[2020.08.23-15.01.17:838][577]LogSlate: Window 'Message Log' being destroyed
+[2020.08.23-15.01.17:841][577]LogSlate: Window 'Message Log' being destroyed
+[2020.08.23-15.02.37:337][960]Candidate modules for hot reload:
+[2020.08.23-15.02.37:337][960]  Trening
+[2020.08.23-15.02.37:338][960]Launching UnrealBuildTool... [D:/Epic/Engine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Trening,1600 TreningEditor Win64 Development -Project="C:/Users/Aleksei/Documents/Unreal Projects/Trening/Trening.uproject" "C:/Users/Aleksei/Documents/Unreal Projects/Trening/Trening.uproject"  -IgnoreJunk]
+[2020.08.23-15.02.37:352][960]Warning: Starting HotReload took  0.0s.
+[2020.08.23-15.02.37:857][975]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.08.23-15.03.08:042][170]CompilerResultsLog: New page: Compilation - Aug 24, 2020, 3:03:08 AM
+[2020.08.23-15.03.08:042][170]CompilerResultsLog: Parsing headers for TreningEditor
+[2020.08.23-15.03.08:042][170]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Aleksei\Documents\Unreal Projects\Trening\Trening.uproject" "C:\Users\Aleksei\Documents\Unreal Projects\Trening\Intermediate\Build\Win64\TreningEditor\Development\TreningEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Aleksei\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.08.23-15.03.08:043][170]CompilerResultsLog: Error: C:/Users/Aleksei/Documents/Unreal Projects/Trening/Source/Trening/GameGrid.h(26)  : LogCompile: Error: Found more than one edit/visibility specifier (EditAnyWhere), only one is allowed
+[2020.08.23-15.03.08:043][170]CompilerResultsLog: Error: C:/Users/Aleksei/Documents/Unreal Projects/Trening/Source/Trening/GameGrid.h(27)  : Error: Missing '*' in Expected a pointer type
+[2020.08.23-15.03.08:043][170]LogMainFrame: MainFrame: Module compiling took 30.710 seconds
+[2020.08.23-15.03.08:043][170]Warning: HotReload failed, recompile failed
+[2020.08.23-15.03.49:388][135]LogSlate: Window 'Message Log' being destroyed
+[2020.08.23-15.03.49:391][135]LogSlate: Window 'Message Log' being destroyed
+[2020.08.23-15.03.50:943][229]Candidate modules for hot reload:
+[2020.08.23-15.03.50:943][229]  Trening
+[2020.08.23-15.03.50:943][229]Launching UnrealBuildTool... [D:/Epic/Engine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Trening,4211 TreningEditor Win64 Development -Project="C:/Users/Aleksei/Documents/Unreal Projects/Trening/Trening.uproject" "C:/Users/Aleksei/Documents/Unreal Projects/Trening/Trening.uproject"  -IgnoreJunk]
+[2020.08.23-15.03.50:945][229]Warning: Starting HotReload took  0.0s.
+[2020.08.23-15.03.58:774][846]CompilerResultsLog: New page: Compilation - Aug 24, 2020, 3:03:58 AM
+[2020.08.23-15.03.58:775][846]CompilerResultsLog: Parsing headers for TreningEditor
+[2020.08.23-15.03.58:775][846]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Aleksei\Documents\Unreal Projects\Trening\Trening.uproject" "C:\Users\Aleksei\Documents\Unreal Projects\Trening\Intermediate\Build\Win64\TreningEditor\Development\TreningEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Aleksei\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.08.23-15.03.58:775][846]CompilerResultsLog: Error: C:/Users/Aleksei/Documents/Unreal Projects/Trening/Source/Trening/GameGrid.h(27)  : Error: Missing '*' in Expected a pointer type
+[2020.08.23-15.03.58:775][846]LogMainFrame: MainFrame: Module compiling took 7.834 seconds
+[2020.08.23-15.03.58:775][846]Warning: HotReload failed, recompile failed
+[2020.08.23-15.05.08:643][164]LogSlate: Window 'Message Log' being destroyed
+[2020.08.23-15.05.09:758][258]Candidate modules for hot reload:
+[2020.08.23-15.05.09:758][258]  Trening
+[2020.08.23-15.05.09:759][258]Launching UnrealBuildTool... [D:/Epic/Engine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Trening,118 TreningEditor Win64 Development -Project="C:/Users/Aleksei/Documents/Unreal Projects/Trening/Trening.uproject" "C:/Users/Aleksei/Documents/Unreal Projects/Trening/Trening.uproject"  -IgnoreJunk]
+[2020.08.23-15.05.09:760][258]Warning: Starting HotReload took  0.0s.
+[2020.08.23-15.05.32:031][ 62]CompilerResultsLog: New page: Compilation - Aug 24, 2020, 3:05:32 AM
+[2020.08.23-15.05.32:031][ 62]CompilerResultsLog: Parsing headers for TreningEditor
+[2020.08.23-15.05.32:031][ 62]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Aleksei\Documents\Unreal Projects\Trening\Trening.uproject" "C:\Users\Aleksei\Documents\Unreal Projects\Trening\Intermediate\Build\Win64\TreningEditor\Development\TreningEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Aleksei\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.08.23-15.05.32:031][ 62]CompilerResultsLog: Error: C:/Users/Aleksei/Documents/Unreal Projects/Trening/Source/Trening/GameGrid.h(27)  : Error: Missing ';' in 'variable declaration'
+[2020.08.23-15.05.32:031][ 62]LogMainFrame: MainFrame: Module compiling took 22.276 seconds
+[2020.08.23-15.05.32:031][ 62]Warning: HotReload failed, recompile failed
+[2020.08.23-15.06.30:775][287]LogSlate: Window 'Message Log' being destroyed
+[2020.08.23-15.06.41:125][523]Candidate modules for hot reload:
+[2020.08.23-15.06.41:125][523]  Trening
+[2020.08.23-15.06.41:126][523]Launching UnrealBuildTool... [D:/Epic/Engine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Trening,135 TreningEditor Win64 Development -Project="C:/Users/Aleksei/Documents/Unreal Projects/Trening/Trening.uproject" "C:/Users/Aleksei/Documents/Unreal Projects/Trening/Trening.uproject"  -IgnoreJunk]
+[2020.08.23-15.06.41:139][523]Warning: Starting HotReload took  0.1s.
+[2020.08.23-15.06.49:251][160]CompilerResultsLog: New page: Compilation - Aug 24, 2020, 3:06:49 AM
+[2020.08.23-15.06.49:251][160]CompilerResultsLog: Parsing headers for TreningEditor
+[2020.08.23-15.06.49:252][160]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Aleksei\Documents\Unreal Projects\Trening\Trening.uproject" "C:\Users\Aleksei\Documents\Unreal Projects\Trening\Intermediate\Build\Win64\TreningEditor\Development\TreningEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Aleksei\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.08.23-15.06.49:252][160]CompilerResultsLog: Error: C:/Users/Aleksei/Documents/Unreal Projects/Trening/Source/Trening/GameGrid.h(27)  : Error: Missing ';' in 'variable declaration'
+[2020.08.23-15.06.49:252][160]LogMainFrame: MainFrame: Module compiling took 8.131 seconds
+[2020.08.23-15.06.49:252][160]Warning: HotReload failed, recompile failed
+[2020.08.23-15.07.07:547][922]LogSlate: Window 'Message Log' being destroyed
+[2020.08.23-15.07.08:336][987]Candidate modules for hot reload:
+[2020.08.23-15.07.08:336][987]  Trening
+[2020.08.23-15.07.08:336][987]Launching UnrealBuildTool... [D:/Epic/Engine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Trening,4033 TreningEditor Win64 Development -Project="C:/Users/Aleksei/Documents/Unreal Projects/Trening/Trening.uproject" "C:/Users/Aleksei/Documents/Unreal Projects/Trening/Trening.uproject"  -IgnoreJunk]
+[2020.08.23-15.07.08:338][987]Warning: Starting HotReload took  0.0s.
+[2020.08.23-15.07.16:834][128]CompilerResultsLog: New page: Compilation - Aug 24, 2020, 3:07:16 AM
+[2020.08.23-15.07.16:834][128]CompilerResultsLog: Parsing headers for TreningEditor
+[2020.08.23-15.07.16:834][128]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Aleksei\Documents\Unreal Projects\Trening\Trening.uproject" "C:\Users\Aleksei\Documents\Unreal Projects\Trening\Intermediate\Build\Win64\TreningEditor\Development\TreningEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Aleksei\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.08.23-15.07.16:834][128]CompilerResultsLog: Error: C:/Users/Aleksei/Documents/Unreal Projects/Trening/Source/Trening/GameGrid.h(27)  : Error: Missing ';' in 'variable declaration'
+[2020.08.23-15.07.16:834][128]LogMainFrame: MainFrame: Module compiling took 8.501 seconds
+[2020.08.23-15.07.16:834][128]Warning: HotReload failed, recompile failed
+[2020.08.23-15.07.22:647][538]LogSlate: Window 'Message Log' being destroyed
+[2020.08.23-15.15.13:243][132]Candidate modules for hot reload:
+[2020.08.23-15.15.13:243][132]  Trening
+[2020.08.23-15.15.13:244][132]Launching UnrealBuildTool... [D:/Epic/Engine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Trening,7682 TreningEditor Win64 Development -Project="C:/Users/Aleksei/Documents/Unreal Projects/Trening/Trening.uproject" "C:/Users/Aleksei/Documents/Unreal Projects/Trening/Trening.uproject"  -IgnoreJunk]
+[2020.08.23-15.15.13:246][132]Warning: Starting HotReload took  0.0s.
+[2020.08.23-15.15.20:176][667]CompilerResultsLog: New page: Compilation - Aug 24, 2020, 3:15:20 AM
+[2020.08.23-15.15.20:177][667]CompilerResultsLog: Parsing headers for TreningEditor
+[2020.08.23-15.15.20:177][667]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Aleksei\Documents\Unreal Projects\Trening\Trening.uproject" "C:\Users\Aleksei\Documents\Unreal Projects\Trening\Intermediate\Build\Win64\TreningEditor\Development\TreningEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Aleksei\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.08.23-15.15.20:177][667]CompilerResultsLog: Error: C:/Users/Aleksei/Documents/Unreal Projects/Trening/Source/Trening/GameGrid.h(27)  : Error: Missing ';' in 'variable declaration'
+[2020.08.23-15.15.20:177][667]LogMainFrame: MainFrame: Module compiling took 6.937 seconds
+[2020.08.23-15.15.20:177][667]Warning: HotReload failed, recompile failed
+[2020.08.23-15.15.26:877][184]LogSlate: Window 'Message Log' being destroyed
+[2020.08.23-15.16.31:194][177]LogTemp: Repeating last play command: Selected Viewport
+[2020.08.23-15.16.31:982][177]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.08.23-15.16.32:524][177]LogPlayLevel: [PlayLevel] Compiling BP_GameGrid before play...
+[2020.08.23-15.16.33:047][177]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.08.23-15.16.33:064][177]LogWindows: Windows GetLastError: The operation completed successfully. (0)

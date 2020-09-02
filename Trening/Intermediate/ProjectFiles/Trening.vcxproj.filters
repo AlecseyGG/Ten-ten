@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Trening.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{FCC78FC1-EFB1-46DE-875F-69D12A2FCAC9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Trening.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TreningEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{CCA76B33-A5B8-41A7-ABD4-6AB0AEF49525}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Trening">
+      <UniqueIdentifier>{84C16899-612D-471F-BC23-9A2C87B9E5C8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Trening\GameGrid.cpp">
+      <Filter>Source\Trening</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Trening\GameGrid.h">
+      <Filter>Source\Trening</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Trening\Trening.Build.cs">
+      <Filter>Source\Trening</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Trening\Trening.cpp">
+      <Filter>Source\Trening</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Trening\Trening.h">
+      <Filter>Source\Trening</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Trening\TreningGameModeBase.cpp">
+      <Filter>Source\Trening</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Trening\TreningGameModeBase.h">
+      <Filter>Source\Trening</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

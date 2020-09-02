@@ -1,0 +1,18 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Trening-0004.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Aleksei\Documents\Unreal Projects\Trening\Intermediate\Build\Win64\TreningEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Aleksei\Documents\Unreal Projects\Trening\Intermediate\Build\Win64\UE4Editor\Development\Trening\GameGrid.cpp.obj"
+"C:\Users\Aleksei\Documents\Unreal Projects\Trening\Intermediate\Build\Win64\UE4Editor\Development\Trening\Trening.cpp.obj"
+"C:\Users\Aleksei\Documents\Unreal Projects\Trening\Intermediate\Build\Win64\UE4Editor\Development\Trening\TreningGameModeBase.cpp.obj"
+"C:\Users\Aleksei\Documents\Unreal Projects\Trening\Intermediate\Build\Win64\UE4Editor\Development\Trening\GameGrid.gen.cpp.obj"
+"C:\Users\Aleksei\Documents\Unreal Projects\Trening\Intermediate\Build\Win64\UE4Editor\Development\Trening\Trening.init.gen.cpp.obj"
+"C:\Users\Aleksei\Documents\Unreal Projects\Trening\Intermediate\Build\Win64\UE4Editor\Development\Trening\TreningGameModeBase.gen.cpp.obj"
+"C:\Users\Aleksei\Documents\Unreal Projects\Trening\Intermediate\Build\Win64\UE4Editor\Development\Trening\Default.rc2.res"
+/OUT:"C:\Users\Aleksei\Documents\Unreal Projects\Trening\Intermediate\Build\Win64\UE4Editor\Development\Trening\UE4Editor-Trening-0004.lib"
+/INCLUDE:IMPLEMENT_MODULE_Trening
