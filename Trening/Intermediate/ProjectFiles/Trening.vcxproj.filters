@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Trening.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{FCC78FC1-EFB1-46DE-875F-69D12A2FCAC9}</UniqueIdentifier>
+      <UniqueIdentifier>{58632758-DCF2-442C-BC6D-157770EDA477}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Trening.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{CCA76B33-A5B8-41A7-ABD4-6AB0AEF49525}</UniqueIdentifier>
+      <UniqueIdentifier>{276A5517-26DF-4212-A172-6E7B927BB65A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +23,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\Trening">
-      <UniqueIdentifier>{84C16899-612D-471F-BC23-9A2C87B9E5C8}</UniqueIdentifier>
+      <UniqueIdentifier>{72CDFEF1-ED1A-49DA-B830-CE48955BE7D6}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Trening\GameGrid.cpp">
       <Filter>Source\Trening</Filter>

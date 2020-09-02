@@ -1,0 +1,3 @@
+D:\Epic\Progects\Ten-ten\Trening\Intermediate\Build\Win64\UE4Editor\Development\Trening\Definitions.Trening.h
+D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h

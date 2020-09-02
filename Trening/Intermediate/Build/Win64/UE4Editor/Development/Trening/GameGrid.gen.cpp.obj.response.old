@@ -230,8 +230,8 @@
 /I Runtime\Experimental\GeometryCollectionSimulationCore\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I "C:\Users\Aleksei\Documents\Unreal Projects\Trening\Intermediate\Build\Win64\UE4Editor\Inc\Trening"
-/I "C:\Users\Aleksei\Documents\Unreal Projects\Trening\Source"
+/I C:\Users\Aleksei\Desktop\Trening\Intermediate\Build\Win64\UE4Editor\Inc\Trening
+/I C:\Users\Aleksei\Desktop\Trening\Source
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -261,12 +261,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"C:\Users\Aleksei\Documents\Unreal Projects\Trening\Intermediate\Build\Win64\TreningEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Users\Aleksei\Documents\Unreal Projects\Trening\Intermediate\Build\Win64\TreningEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\Aleksei\Documents\Unreal Projects\Trening\Intermediate\Build\Win64\TreningEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\Aleksei\Documents\Unreal Projects\Trening\Intermediate\Build\Win64\UE4Editor\Inc\Trening\GameGrid.gen.cpp"
-/FI"C:\Users\Aleksei\Documents\Unreal Projects\Trening\Intermediate\Build\Win64\UE4Editor\Development\Trening\Definitions.Trening.h"
-/Fo"C:\Users\Aleksei\Documents\Unreal Projects\Trening\Intermediate\Build\Win64\UE4Editor\Development\Trening\GameGrid.gen.cpp.obj"
+/FI"C:\Users\Aleksei\Desktop\Trening\Intermediate\Build\Win64\TreningEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Users\Aleksei\Desktop\Trening\Intermediate\Build\Win64\TreningEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\Aleksei\Desktop\Trening\Intermediate\Build\Win64\TreningEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\Aleksei\Desktop\Trening\Intermediate\Build\Win64\UE4Editor\Inc\Trening\GameGrid.gen.cpp"
+/FI"C:\Users\Aleksei\Desktop\Trening\Intermediate\Build\Win64\UE4Editor\Development\Trening\Definitions.Trening.h"
+/Fo"C:\Users\Aleksei\Desktop\Trening\Intermediate\Build\Win64\UE4Editor\Development\Trening\GameGrid.gen.cpp.obj"
 /TP
 /GR-
 /W4

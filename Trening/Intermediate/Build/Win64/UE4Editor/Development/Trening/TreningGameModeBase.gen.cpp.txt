@@ -1,0 +1,9 @@
+D:\Epic\Progects\Ten-ten\Trening\Intermediate\Build\Win64\UE4Editor\Development\Trening\Definitions.Trening.h
+D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\Epic\Progects\Ten-ten\Trening\Source\Trening/TreningGameModeBase.h
+D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+D:\Epic\Progects\Ten-ten\Trening\Intermediate\Build\Win64\UE4Editor\Inc\Trening\TreningGameModeBase.generated.h

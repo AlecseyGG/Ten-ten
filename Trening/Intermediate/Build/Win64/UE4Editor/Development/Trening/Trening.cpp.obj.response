@@ -230,8 +230,8 @@
 /I Runtime\Experimental\GeometryCollectionSimulationCore\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I C:\Users\Aleksei\Desktop\Trening\Intermediate\Build\Win64\UE4Editor\Inc\Trening
-/I C:\Users\Aleksei\Desktop\Trening\Source
+/I D:\Epic\Progects\Ten-ten\Trening\Intermediate\Build\Win64\UE4Editor\Inc\Trening
+/I D:\Epic\Progects\Ten-ten\Trening\Source
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -261,12 +261,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"C:\Users\Aleksei\Desktop\Trening\Intermediate\Build\Win64\TreningEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Users\Aleksei\Desktop\Trening\Intermediate\Build\Win64\TreningEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\Aleksei\Desktop\Trening\Intermediate\Build\Win64\TreningEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\Aleksei\Desktop\Trening\Source\Trening\Trening.cpp"
-/FI"C:\Users\Aleksei\Desktop\Trening\Intermediate\Build\Win64\UE4Editor\Development\Trening\Definitions.Trening.h"
-/Fo"C:\Users\Aleksei\Desktop\Trening\Intermediate\Build\Win64\UE4Editor\Development\Trening\Trening.cpp.obj"
+/FI"D:\Epic\Progects\Ten-ten\Trening\Intermediate\Build\Win64\TreningEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"D:\Epic\Progects\Ten-ten\Trening\Intermediate\Build\Win64\TreningEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"D:\Epic\Progects\Ten-ten\Trening\Intermediate\Build\Win64\TreningEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"D:\Epic\Progects\Ten-ten\Trening\Source\Trening\Trening.cpp"
+/FI"D:\Epic\Progects\Ten-ten\Trening\Intermediate\Build\Win64\UE4Editor\Development\Trening\Definitions.Trening.h"
+/Fo"D:\Epic\Progects\Ten-ten\Trening\Intermediate\Build\Win64\UE4Editor\Development\Trening\Trening.cpp.obj"
 /TP
 /GR-
 /W4

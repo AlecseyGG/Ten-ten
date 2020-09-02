@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "Trening",
-			"Path": "C:\\Users\\Aleksei\\Documents\\Unreal Projects\\Trening\\Source\\Trening.Target.cs",
+			"Path": "D:\\Epic\\Progects\\Ten-ten\\Trening\\Source\\Trening.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "TreningEditor",
-			"Path": "C:\\Users\\Aleksei\\Documents\\Unreal Projects\\Trening\\Source\\TreningEditor.Target.cs",
+			"Path": "D:\\Epic\\Progects\\Ten-ten\\Trening\\Source\\TreningEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

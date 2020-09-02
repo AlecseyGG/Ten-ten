@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\Aleksei\\Desktop\\Trening\\Source\\Trening\\Trening.Build.cs",
-		"C:\\Users\\Aleksei\\Desktop\\Trening\\Source\\Trening.Target.cs",
-		"C:\\Users\\Aleksei\\Desktop\\Trening\\Source\\TreningEditor.Target.cs"
+		"D:\\Epic\\Progects\\Ten-ten\\Trening\\Source\\Trening\\Trening.Build.cs",
+		"D:\\Epic\\Progects\\Ten-ten\\Trening\\Source\\Trening.Target.cs",
+		"D:\\Epic\\Progects\\Ten-ten\\Trening\\Source\\TreningEditor.Target.cs"
 	],
 	"EngineVersion": "4.25.3"
 }

@@ -25,14 +25,6 @@
       <Configuration>DebugGame_Editor</Configuration>
       <Platform>x64</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="Android_DebugGame|Win32">
-      <Configuration>Android_DebugGame</Configuration>
-      <Platform>Win32</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="Android_DebugGame|x64">
-      <Configuration>Android_DebugGame</Configuration>
-      <Platform>x64</Platform>
-    </ProjectConfiguration>
     <ProjectConfiguration Include="Development|Win32">
       <Configuration>Development</Configuration>
       <Platform>Win32</Platform>
@@ -49,28 +41,12 @@
       <Configuration>Development_Editor</Configuration>
       <Platform>x64</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="Android_Development|Win32">
-      <Configuration>Android_Development</Configuration>
-      <Platform>Win32</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="Android_Development|x64">
-      <Configuration>Android_Development</Configuration>
-      <Platform>x64</Platform>
-    </ProjectConfiguration>
     <ProjectConfiguration Include="Shipping|Win32">
       <Configuration>Shipping</Configuration>
       <Platform>Win32</Platform>
     </ProjectConfiguration>
     <ProjectConfiguration Include="Shipping|x64">
       <Configuration>Shipping</Configuration>
-      <Platform>x64</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="Android_Shipping|Win32">
-      <Configuration>Android_Shipping</Configuration>
-      <Platform>Win32</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="Android_Shipping|x64">
-      <Configuration>Android_Shipping</Configuration>
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
@@ -114,16 +90,6 @@
     <PlatformToolset>v142</PlatformToolset>
     <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_DebugGame|Win32'" Label="Configuration">
-    <ConfigurationType>Makefile</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
-    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_DebugGame|x64'" Label="Configuration">
-    <ConfigurationType>Makefile</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
-    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
-  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|Win32'" Label="Configuration">
     <ConfigurationType>Makefile</ConfigurationType>
     <PlatformToolset>v142</PlatformToolset>
@@ -144,32 +110,12 @@
     <PlatformToolset>v142</PlatformToolset>
     <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Development|Win32'" Label="Configuration">
-    <ConfigurationType>Makefile</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
-    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Development|x64'" Label="Configuration">
-    <ConfigurationType>Makefile</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
-    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
-  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'" Label="Configuration">
     <ConfigurationType>Makefile</ConfigurationType>
     <PlatformToolset>v142</PlatformToolset>
     <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'" Label="Configuration">
-    <ConfigurationType>Makefile</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
-    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Shipping|Win32'" Label="Configuration">
-    <ConfigurationType>Makefile</ConfigurationType>
-    <PlatformToolset>v142</PlatformToolset>
-    <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Shipping|x64'" Label="Configuration">
     <ConfigurationType>Makefile</ConfigurationType>
     <PlatformToolset>v142</PlatformToolset>
     <PlatformToolset Condition="'$(VisualStudioVersion)' == '15.0'">v141</PlatformToolset>
@@ -244,23 +190,6 @@
     <NMakeCleanCommandLine>D:\Epic\Engine\UE_4.25\Engine\Build\BatchFiles\Clean.bat TreningEditor Win64 DebugGame -Project="$(SolutionDir)Trening.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
     <NMakeOutput>D:\Epic\Engine\UE_4.25\Engine\Binaries\Win64\UE4Editor-Win64-DebugGame.exe</NMakeOutput>
   </PropertyGroup>
-  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Android_DebugGame|Win32'" Label="PropertySheets">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-  </ImportGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_DebugGame|Win32'">
-    <IncludePath />
-    <ReferencePath />
-    <LibraryPath />
-    <LibraryWPath />
-    <SourcePath />
-    <ExcludePath />
-    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
-    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>D:\Epic\Engine\UE_4.25\Engine\Build\BatchFiles\Build.bat Trening Android DebugGame -Project="$(SolutionDir)Trening.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>D:\Epic\Engine\UE_4.25\Engine\Build\BatchFiles\Rebuild.bat Trening Android DebugGame -Project="$(SolutionDir)Trening.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>D:\Epic\Engine\UE_4.25\Engine\Build\BatchFiles\Clean.bat Trening Android DebugGame -Project="$(SolutionDir)Trening.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
-    <NMakeOutput>..\..\Binaries\Android\Trening-Android-DebugGame.so</NMakeOutput>
-  </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
@@ -312,23 +241,6 @@
     <NMakeCleanCommandLine>D:\Epic\Engine\UE_4.25\Engine\Build\BatchFiles\Clean.bat TreningEditor Win64 Development -Project="$(SolutionDir)Trening.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
     <NMakeOutput>D:\Epic\Engine\UE_4.25\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
   </PropertyGroup>
-  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Android_Development|Win32'" Label="PropertySheets">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-  </ImportGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Development|Win32'">
-    <IncludePath />
-    <ReferencePath />
-    <LibraryPath />
-    <LibraryWPath />
-    <SourcePath />
-    <ExcludePath />
-    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
-    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>D:\Epic\Engine\UE_4.25\Engine\Build\BatchFiles\Build.bat Trening Android Development -Project="$(SolutionDir)Trening.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>D:\Epic\Engine\UE_4.25\Engine\Build\BatchFiles\Rebuild.bat Trening Android Development -Project="$(SolutionDir)Trening.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>D:\Epic\Engine\UE_4.25\Engine\Build\BatchFiles\Clean.bat Trening Android Development -Project="$(SolutionDir)Trening.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
-    <NMakeOutput>..\..\Binaries\Android\Trening.so</NMakeOutput>
-  </PropertyGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
@@ -363,23 +275,6 @@
     <NMakeCleanCommandLine>D:\Epic\Engine\UE_4.25\Engine\Build\BatchFiles\Clean.bat Trening Win64 Shipping -Project="$(SolutionDir)Trening.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
     <NMakeOutput>..\..\Binaries\Win64\Trening-Win64-Shipping.exe</NMakeOutput>
   </PropertyGroup>
-  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Android_Shipping|Win32'" Label="PropertySheets">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-  </ImportGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Shipping|Win32'">
-    <IncludePath />
-    <ReferencePath />
-    <LibraryPath />
-    <LibraryWPath />
-    <SourcePath />
-    <ExcludePath />
-    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
-    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-    <NMakeBuildCommandLine>D:\Epic\Engine\UE_4.25\Engine\Build\BatchFiles\Build.bat Trening Android Shipping -Project="$(SolutionDir)Trening.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>D:\Epic\Engine\UE_4.25\Engine\Build\BatchFiles\Rebuild.bat Trening Android Shipping -Project="$(SolutionDir)Trening.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>D:\Epic\Engine\UE_4.25\Engine\Build\BatchFiles\Clean.bat Trening Android Shipping -Project="$(SolutionDir)Trening.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
-    <NMakeOutput>..\..\Binaries\Android\Trening-Android-Shipping.so</NMakeOutput>
-  </PropertyGroup>
   <PropertyGroup>
     <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
     <IncludePath>$(IncludePath);D:\Epic\Engine\UE_4.25\Engine\Source;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\Engine\Classes;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\Engine\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Core;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\TraceLog\Public;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\Core\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\TraceLog;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\CoreUObject\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NetCore;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\Net;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\Net\Core\Classes;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\Net\Core\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ApplicationCore;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\ApplicationCore\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RHI;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\RHI\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Json;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\Json\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\SlateCore\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\InputCore;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\InputCore\Classes;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\InputCore\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Slate;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\Slate\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ImageWrapper;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\ImageWrapper\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Messaging;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\Messaging\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MessagingCommon;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\MessagingCommon\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RenderCore;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\RenderCore\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AnalyticsET;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\Analytics;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\Analytics\AnalyticsET\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Analytics;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\Analytics\Analytics\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Sockets;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\Sockets\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\AssetRegistry\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineMessages;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\EngineMessages\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineSettings;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\EngineSettings\Classes;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\EngineSettings\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SynthBenchmark;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\SynthBenchmark\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Renderer;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\Renderer\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTags;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\GameplayTags\Classes;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\GameplayTags\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PacketHandler;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\PacketHandlers;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\PacketHandlers\PacketHandler\Classes;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\PacketHandlers\PacketHandler\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ReliabilityHandlerComponent;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioPlatformConfiguration;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\AudioPlatformConfiguration\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshDescription;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\MeshDescription\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\StaticMeshDescription;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\StaticMeshDescription\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PakFile;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\PakFile\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RSA;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\RSA\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NetworkReplayStreaming;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\NetworkReplayStreaming;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PhysicsCore;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\PhysicsCore\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Chaos;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\Experimental;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\Experimental\Chaos\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ChaosCore;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\Experimental\ChaosCore\Public;D:\Epic\Engine\UE_4.25\Engine\Source\ThirdParty;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Voronoi;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\Experimental\Voronoi\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\FieldSystemCore;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\Experimental\FieldSystem\Source;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\Experimental\FieldSystem\Source\FieldSystemCore\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SignalProcessing;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\SignalProcessing\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioExtensions;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\AudioExtensions\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixerCore;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\AudioMixerCore\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd;D:\Epic\Engine\UE_4.25\Engine\Source\Editor;D:\Epic\Engine\UE_4.25\Engine\Source\Programs\UnrealLightmass\Public;D:\Epic\Engine\UE_4.25\Engine\Source\Developer\Android\AndroidDeviceDetection\Public\Interfaces;D:\Epic\Engine\UE_4.25\Engine\Source\Editor\UnrealEd\Classes;D:\Epic\Engine\UE_4.25\Engine\Source\Editor\UnrealEd\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DirectoryWatcher;D:\Epic\Engine\UE_4.25\Engine\Source\Developer;D:\Epic\Engine\UE_4.25\Engine\Source\Developer\DirectoryWatcher\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Documentation;D:\Epic\Engine\UE_4.25\Engine\Source\Editor\Documentation\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Projects;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\Projects\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SandboxFile;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\SandboxFile\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EditorStyle;D:\Epic\Engine\UE_4.25\Engine\Source\Editor\EditorStyle\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SourceControl;D:\Epic\Engine\UE_4.25\Engine\Source\Developer\SourceControl\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEdMessages;D:\Epic\Engine\UE_4.25\Engine\Source\Editor\UnrealEdMessages\Classes;D:\Epic\Engine\UE_4.25\Engine\Source\Editor\UnrealEdMessages\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayDebugger;D:\Epic\Engine\UE_4.25\Engine\Source\Developer\GameplayDebugger\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\BlueprintGraph;D:\Epic\Engine\UE_4.25\Engine\Source\Editor\BlueprintGraph\Classes;D:\Epic\Engine\UE_4.25\Engine\Source\Editor\BlueprintGraph\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EditorSubsystem;D:\Epic\Engine\UE_4.25\Engine\Source\Editor\EditorSubsystem\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HTTP;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\Online;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\Online\HTTP\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealAudio;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\UnrealAudio\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\FunctionalTesting;D:\Epic\Engine\UE_4.25\Engine\Source\Developer\FunctionalTesting\Classes;D:\Epic\Engine\UE_4.25\Engine\Source\Developer\FunctionalTesting\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AutomationController;D:\Epic\Engine\UE_4.25\Engine\Source\Developer\AutomationController\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Localization;D:\Epic\Engine\UE_4.25\Engine\Source\Developer\Localization\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioEditor;D:\Epic\Engine\UE_4.25\Engine\Source\Editor\AudioEditor\Classes;D:\Epic\Engine\UE_4.25\Engine\Source\Editor\AudioEditor\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixer;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\AudioMixer\Classes;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\AudioMixer\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\TargetPlatform;D:\Epic\Engine\UE_4.25\Engine\Source\Developer\TargetPlatform\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\LevelEditor;D:\Epic\Engine\UE_4.25\Engine\Source\Editor\LevelEditor\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Settings;D:\Epic\Engine\UE_4.25\Engine\Source\Developer\Settings\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\IntroTutorials;D:\Epic\Engine\UE_4.25\Engine\Source\Editor\IntroTutorials\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\HeadMountedDisplay\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\VREditor;D:\Epic\Engine\UE_4.25\Engine\Source\Editor\VREditor;D:\Epic\Engine\UE_4.25\Engine\Source\Editor\VREditor\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CommonMenuExtensions;D:\Epic\Engine\UE_4.25\Engine\Source\Editor\CommonMenuExtensions\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Landscape;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\Landscape\Classes;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\Landscape\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyEditor;D:\Epic\Engine\UE_4.25\Engine\Source\Editor\PropertyEditor\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ActorPickerMode;D:\Epic\Engine\UE_4.25\Engine\Source\Editor\ActorPickerMode\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SceneDepthPickerMode;D:\Epic\Engine\UE_4.25\Engine\Source\Editor\SceneDepthPickerMode\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DetailCustomizations;D:\Epic\Engine\UE_4.25\Engine\Source\Editor\DetailCustomizations\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ClassViewer;D:\Epic\Engine\UE_4.25\Engine\Source\Editor\ClassViewer\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GraphEditor;D:\Epic\Engine\UE_4.25\Engine\Source\Editor\GraphEditor\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\StructViewer;D:\Epic\Engine\UE_4.25\Engine\Source\Editor\StructViewer\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ContentBrowser;D:\Epic\Engine\UE_4.25\Engine\Source\Editor\ContentBrowser\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UELibSampleRate;D:\Epic\Engine\UE_4.25\Engine\Source\ThirdParty\libSampleRate\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NetworkFileSystem;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\NetworkFileSystem\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\UMG\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\MovieScene\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\TimeManagement;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\TimeManagement\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieSceneTracks;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\MovieSceneTracks\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AnimationCore;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\AnimationCore\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyPath;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\PropertyPath\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\NavigationSystem\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshBuilder;D:\Epic\Engine\UE_4.25\Engine\Source\Developer\MeshBuilder\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MaterialShaderQualitySettings;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\MaterialShaderQualitySettings\Classes;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\InteractiveToolsFramework;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\Experimental\InteractiveToolsFramework\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ToolMenusEditor;D:\Epic\Engine\UE_4.25\Engine\Source\Editor\ToolMenusEditor\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\XAudio2;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\Windows;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\Windows\XAudio2\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixerXAudio2;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetTagsEditor;D:\Epic\Engine\UE_4.25\Engine\Source\Editor\AssetTagsEditor\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CollectionManager;D:\Epic\Engine\UE_4.25\Engine\Source\Developer\CollectionManager\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AddContentDialog;D:\Epic\Engine\UE_4.25\Engine\Source\Editor\AddContentDialog\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshUtilities;D:\Epic\Engine\UE_4.25\Engine\Source\ThirdParty\IntelEmbree\Embree2140\Win64\include;D:\Epic\Engine\UE_4.25\Engine\Source\Developer\MeshUtilities\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshMergeUtilities;D:\Epic\Engine\UE_4.25\Engine\Source\Developer\MeshMergeUtilities\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HierarchicalLODUtilities;D:\Epic\Engine\UE_4.25\Engine\Source\Developer\HierarchicalLODUtilities\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshReductionInterface;D:\Epic\Engine\UE_4.25\Engine\Source\Developer\MeshReductionInterface\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetTools;D:\Epic\Engine\UE_4.25\Engine\Source\Developer\AssetTools\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\KismetCompiler;D:\Epic\Engine\UE_4.25\Engine\Source\Editor\KismetCompiler\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTasks;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\GameplayTasks\Classes;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\GameplayTasks\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\AIModule\Public;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\AIModule\Classes;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Kismet;D:\Epic\Engine\UE_4.25\Engine\Source\Editor\Kismet\Classes;D:\Epic\Engine\UE_4.25\Engine\Source\Editor\Kismet\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PhysicsSQ;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\PhysicsSQ\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ChaosSolvers;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\Experimental\ChaosSolvers\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GeometryCollectionCore;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\Experimental\GeometryCollectionCore\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GeometryCollectionSimulationCore;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\Experimental\GeometryCollectionSimulationCore\Public;D:\Epic\Engine\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface;D:\Epic\Engine\UE_4.25\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public;..\Build\Win64\UE4Editor\Inc\Trening;..\..\Source;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt;;</IncludePath>
@@ -394,6 +289,7 @@
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
+    <None Include="..\..\Config\DefaultInput.ini"/>
     <ClCompile Include="..\..\Source\Trening\GameGrid.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Epic\Engine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include;D:\Epic\Engine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;D:\Epic\Engine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;D:\Epic\Engine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;D:\Epic\Engine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;D:\Epic\Engine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;D:\Epic\Engine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;D:\Epic\Engine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;D:\Epic\Engine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;D:\Epic\Engine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;D:\Epic\Engine\UE_4.25\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;D:\Epic\Engine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;D:\Epic\Engine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;D:\Epic\Engine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;D:\Epic\Engine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;D:\Epic\Engine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;D:\Epic\Engine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;D:\Epic\Engine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;D:\Epic\Engine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;D:\Epic\Engine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;D:\Epic\Engine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;D:\Epic\Engine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;D:\Epic\Engine\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Intermediate\Build\Win64\UE4Editor\Development\Trening\Definitions.Trening.h;$(SolutionDir)Intermediate\Build\Win64\TreningEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
